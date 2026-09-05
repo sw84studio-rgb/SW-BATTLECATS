@@ -1,0 +1,93 @@
+(()=>{'use strict';
+const ROLE_LABEL={WALL:'벽',COUNTER:'기믹 대응',CONTROL:'메즈·지원',RANGE:'장거리',DPS:'주력 딜러',TANK:'탱커',FLEX:'유연 슬롯'};
+const state={data:null,traitIndex:new Map(),rulesByThreat:new Map()};
+function addIndex(map,key,val){if(!map.has(key))map.set(key,[]);map.get(key).push(val)}
+function init(data){
+  state.data=data;state.traitIndex=new Map();state.rulesByThreat=new Map();
+  for(const u of data.units||[])for(const t of u.traits||[])addIndex(state.traitIndex,t,u);
+  for(const r of data.rules||[])addIndex(state.rulesByThreat,`${r.threat_kind}:${r.threat_key}`,r);
+  return api;
+}
+function evidenceForStage(stageId){
+  const st=state.data?.stages?.[stageId];if(!st)return new Map();
+  const out=new Map();
+  for(const th of st.threats||[]){
+    for(const r of state.rulesByThreat.get(`${th.threat_kind}:${th.threat_key}`)||[]){
+      if(!r.required_trait_key)continue;
+      for(const u of state.traitIndex.get(r.required_trait_key)||[]){
+        if(r.required_target_key && !(u.targets||[]).includes(r.required_target_key))continue;
+        let e=out.get(u.entry_id);if(!e){e={positive_score:0,risk_penalty:0,evidence_score:0,hard_matches:0,direct_matches:0,matched:new Set(),reasons:new Set()};out.set(u.entry_id,e)}
+        const signed=r.polarity==='NEGATIVE'?-Number(r.sort_weight):Number(r.sort_weight);
+        if(signed>0)e.positive_score+=signed;else e.risk_penalty+=-signed;
+        e.evidence_score+=signed;
+        if(r.polarity==='POSITIVE'&&r.priority_tier==='HARD')e.hard_matches++;
+        if(r.polarity==='POSITIVE'&&r.priority_tier==='DIRECT')e.direct_matches++;
+        e.matched.add(`${th.threat_kind}:${th.threat_key}`);
+        e.reasons.add(`${r.polarity==='NEGATIVE'?'주의:':''}${th.threat_name_ko}→${r.capability_name_ko}`);
+      }
+    }
+  }
+  for(const e of out.values()){
+    e.matched_threats=e.matched.size;
+    e.stage_score=e.evidence_score+e.hard_matches*24+e.direct_matches*12+e.matched_threats*2;
+    e.reasons=[...e.reasons];
+    delete e.matched;
+  }
+  return out;
+}
+function metric(x,slot){
+  const st=x.stage_score||0,r=x.roles,s=x.stats;
+  if(slot==='WALL')return r.wall*1.15+st*0.55+r.cycle*0.10;
+  if(slot==='COUNTER')return st*1.40+r.utility*0.30+r.dps*0.15+s.balanced*0.05;
+  if(slot==='CONTROL')return st*0.90+r.control+r.range*0.10+r.cycle*0.15;
+  if(slot==='RANGE')return st*0.70+r.range*0.90+r.dps*0.35;
+  if(slot==='DPS')return st*0.70+r.dps+r.range*0.20;
+  if(slot==='TANK')return st*0.65+r.tank*0.90+r.utility*0.25;
+  return st*0.70+Math.max(r.utility,r.dps,r.rush,r.cycle,r.tank)*0.75+s.balanced*0.10;
+}
+function recommend(stageId,{owned=null,limit=10}={}){
+  if(!state.data)throw new Error('deck engine not initialized');
+  const stage=state.data.stages?.[stageId];if(!stage)return {version:'V034',stage_native_id:stageId,status:'UNKNOWN_STAGE',slots:[]};
+  const ev=evidenceForStage(stageId);let cand=[];
+  for(const u0 of state.data.units||[]){
+    if(owned){
+      const max=owned[String(u0.unit_id)]??owned[u0.unit_id];
+      if(max==null||u0.form_no>Number(max))continue;
+    }
+    const e=ev.get(u0.entry_id)||{positive_score:0,risk_penalty:0,evidence_score:0,hard_matches:0,direct_matches:0,matched_threats:0,stage_score:0,reasons:[]};
+    cand.push({...u0,...e});
+  }
+  const slots=['WALL','WALL','COUNTER','COUNTER','CONTROL','RANGE','DPS','DPS','TANK','FLEX'].slice(0,limit);
+  const chosen=[];let expensive=0,slow=0;
+  for(const slot of slots){
+    const used=new Set(chosen.map(x=>x.unit_id));let pool=cand.filter(x=>!used.has(x.unit_id));
+    let f=pool;
+    if(slot==='WALL')f=pool.filter(x=>x.roles.wall>=55);
+    else if(slot==='COUNTER')f=pool.filter(x=>x.stage_score>0);
+    else if(slot==='CONTROL')f=pool.filter(x=>x.roles.control>=45&&x.stage_score>0),f=f.length?f:pool.filter(x=>x.roles.control>=45);
+    else if(slot==='RANGE')f=pool.filter(x=>x.roles.range>=40);
+    else if(slot==='DPS')f=pool.filter(x=>x.roles.dps>=45);
+    else if(slot==='TANK')f=pool.filter(x=>x.roles.tank>=50);
+    if(!f.length)f=pool;
+    if(expensive>=4){const p=f.filter(x=>x.stats.cost<=4500);if(p.length)f=p}
+    if(slow>=4){const p=f.filter(x=>x.stats.recharge_f<=3000);if(p.length)f=p}
+    if(!f.length)break;
+    const bestByUnit=new Map();
+    for(const x of f){
+      const score=metric(x,slot),p=bestByUnit.get(x.unit_id);
+      if(!p||score>p.score||(score===p.score&&x.form_no>p.x.form_no))bestByUnit.set(x.unit_id,{score,x});
+    }
+    const arr=[...bestByUnit.values()].sort((a,b)=>b.score-a.score||b.x.form_no-a.x.form_no||a.x.unit_id-b.x.unit_id);
+    const {score,x}=arr[0];const y={...x,slot_role:slot,slot_role_ko:ROLE_LABEL[slot],selection_score:Math.round(score*1000)/1000};
+    chosen.push(y);if(y.stats.cost>4500)expensive++;if(y.stats.recharge_f>3000)slow++;
+  }
+  const result=chosen.map((x,i)=>({slot:i+1,role:x.slot_role,role_ko:x.slot_role_ko,unit_id:x.unit_id,form_no:x.form_no,entry_id:x.entry_id,name_ko:x.name_ko,
+    selection_score:x.selection_score,stage_score:Math.round((x.stage_score||0)*1000)/1000,hard_matches:x.hard_matches||0,direct_matches:x.direct_matches||0,matched_threats:x.matched_threats||0,
+    stats:x.stats,reasons:(x.reasons&&x.reasons.length?x.reasons:[`${x.slot_role_ko} 역할 점수 기반`]).slice(0,8)}));
+  return {version:'V034',stage_native_id:stageId,stage_name_ko:stage.name_ko,status:result.length===limit?'OK':(owned?'INSUFFICIENT_ROSTER':'INSUFFICIENT_CANDIDATES'),
+    slots:result,constraints:{unique_units:new Set(result.map(x=>x.unit_id)).size===result.length,expensive_count:result.filter(x=>x.stats.cost>4500).length,slow_recharge_count:result.filter(x=>x.stats.recharge_f>3000).length},
+    scoring_status:'HEURISTIC_SORT_ONLY_NOT_OFFICIAL_FORMULA'};
+}
+const api={init,recommend,evidenceForStage,ROLE_LABEL};
+if(typeof module!=='undefined'&&module.exports)module.exports=api;else window.SWBattleCatsDeckEngineV034=api;
+})();

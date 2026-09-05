@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>SW BATTLE CATS 백과 V035</title>
+<link rel="stylesheet" href="css/encyclopedia-v035.css">
+</head>
+<body>
+<header class="app-header">
+  <button class="header-home" type="button" data-action="home">홈으로</button>
+  <div class="brand">SW BATTLE CATS</div>
+  <div class="version"><b>V035</b><small>KR 15.5.0</small></div>
+</header>
+<main id="app" class="app-main" aria-live="polite">
+  <section id="catalogView" class="catalog-view">
+    <div class="search-panel">
+      <input id="searchInput" type="search" placeholder="캐릭터·적·스테이지 검색" autocomplete="off">
+      <div id="categoryTabs" class="category-tabs" role="tablist">
+        <button type="button" data-category="all" class="active">전체</button>
+        <button type="button" data-category="cat_form">캐릭터</button>
+        <button type="button" data-category="enemy">적</button>
+        <button type="button" data-category="stage">스테이지</button>
+      </div>
+    </div>
+    <div class="catalog-meta"><strong id="resultCount">0</strong><span>개</span></div>
+    <div id="entryList" class="entry-list"></div>
+  </section>
+  <section id="detailView" class="detail-view" hidden></section>
+</main>
+<nav class="bottom-toolbar" aria-label="하단 탐색">
+  <button type="button" data-action="back">뒤로가기</button>
+  <button type="button" class="primary" data-action="encyclopedia">백과사전</button>
+</nav>
+<script src="js/layout-v030.js"></script>
+<script src="js/image-resolver-v032.js"></script>
+<script src="js/deck-engine-v034.js"></script>
+<script src="js/roster-v035.js"></script>
+<script src="js/encyclopedia-v035.js"></script>
+</body>
+</html>

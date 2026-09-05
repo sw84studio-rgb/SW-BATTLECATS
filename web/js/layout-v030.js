@@ -1,0 +1,6 @@
+(function(root){'use strict';
+function textLen(v){if(Array.isArray(v))return v.join(' ').length;if(v&&typeof v==='object')return JSON.stringify(v).length;return String(v??'').length}
+function fieldKind(f){const t=String(f.value??''),len=textLen(f.value),lines=t.split('\n').filter(Boolean).length,sentence=/[.!?。]|습니다|합니다|됩니다/.test(t);if((f.links?.length||0)>3||lines>2||len>46||(sentence&&len>24))return'wide';if((f.links?.length||0)>0||lines===2||len>24)return'medium';return'compact'}
+function spans(fields){const out=new Array(fields.length).fill(6);let run=[];const flush=()=>{if(!run.length)return;const n=run.length;if(n===1)out[run[0]]=6;else if(n===2){run.forEach(i=>out[i]=3)}else if(n===3){run.forEach(i=>out[i]=2)}else if(n===4){run.forEach(i=>out[i]=3)}else if(n===5){run.slice(0,3).forEach(i=>out[i]=2);run.slice(3).forEach(i=>out[i]=3)}else{let j=0;while(j<n){const left=n-j;if(left===1){out[run[j]]=6;j+=1}else if(left===2){out[run[j]]=3;out[run[j+1]]=3;j+=2}else{out[run[j]]=2;out[run[j+1]]=2;out[run[j+2]]=2;j+=3}}}run=[]};fields.forEach((f,i)=>{if(fieldKind(f)==='wide'){flush();out[i]=6}else run.push(i)});flush();return out}
+const api={textLen,fieldKind,spans};root.SWBattleCatsLayoutV030=api;if(typeof module!=='undefined'&&module.exports)module.exports=api;
+})(typeof globalThis!=='undefined'?globalThis:this);
