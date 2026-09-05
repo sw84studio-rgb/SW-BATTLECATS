@@ -1,0 +1,17 @@
+{
+  "cat_remote": {
+    "enabled": true,
+    "fallback": "placeholder_on_error",
+    "provider": "battlecatsinfo_public_img",
+    "template": "https://battlecatsinfo.github.io/img/u/{unit_id}/{form_index0}.png",
+    "verification_status": "PUBLIC_REPO_UNIT_PATH_PATTERN_VERIFIED"
+  },
+  "enemy_remote": {
+    "enabled": "EXPLICIT_ONLY",
+    "reason": "적 파일명은 내부 enemy_id와 직접 대응하지 않아 숫자 추측 금지",
+    "verified_mappings_file": "ENEMY_IMAGE_EXPLICIT_MAP_V031.json"
+  },
+  "local_locked_first": true,
+  "schema": "sw_battlecats_image_runtime_policy_v036",
+  "version": "V036"
+}
