@@ -1,0 +1,144 @@
+{
+  "schema": "sw_battlecats_deploy_manifest_v037",
+  "version": "V037",
+  "file_count": 27,
+  "total_bytes": 1771825,
+  "max_file_bytes": 507408,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README_UPLOAD_V037.md",
+      "bytes": 676,
+      "sha256": "c52646f6ec21981a4e0f4300a08765acdfa435f0834014aa95aa57055e8062e5"
+    },
+    {
+      "path": "data/runtime-v037/cats.jgz",
+      "bytes": 218973,
+      "sha256": "f0167b8cd12aaa15a795340c035d359ff9b580af878d06fb5610bc1398d97b64"
+    },
+    {
+      "path": "data/runtime-v037/enemies.jgz",
+      "bytes": 135620,
+      "sha256": "4cc30f4308979f76e67cb46422b3ca8c4d57c1e3961e447bbb222410c92f3b70"
+    },
+    {
+      "path": "data/runtime-v037/enemyImageMap.jgz",
+      "bytes": 374,
+      "sha256": "5f14063f4792f2dd00f0adbf00ef4c81f0c1cd2b26b56052eae7550450e52380"
+    },
+    {
+      "path": "data/runtime-v037/hierarchy.jgz",
+      "bytes": 357745,
+      "sha256": "a676474e53953c79e2c3b9ccfbc80c94ed467614397ab86444a6f8b3800eabaf"
+    },
+    {
+      "path": "data/runtime-v037/index.jgz",
+      "bytes": 117867,
+      "sha256": "984a60360c9a2da086cee9661713652295c82aee42ea8409bde9d72b07216b1e"
+    },
+    {
+      "path": "data/runtime-v037/manifest.json",
+      "bytes": 4971,
+      "sha256": "5005d94d43a5a8c4a972fa82742fc231f2ad9237bde5376f63a5228d591ee1a3"
+    },
+    {
+      "path": "data/runtime-v037/platforms.jgz",
+      "bytes": 422,
+      "sha256": "4b73b2612076600662e8584484bc7d40cb95e59c3d0cfeda7c1e252dcbc75cea"
+    },
+    {
+      "path": "data/runtime-v037/progression.jgz",
+      "bytes": 584,
+      "sha256": "b7a79d8ff0448d6e3d2856869115f268ebf0b28c18c973ef1b3231cd847830e0"
+    },
+    {
+      "path": "data/runtime-v037/specialCombos.jgz",
+      "bytes": 16197,
+      "sha256": "8402ce5c134538a66b7d927d6566f192cdc015c2e0fb9ae492d2bde34db4de9c"
+    },
+    {
+      "path": "data/runtime-v037/specialGacha.jgz",
+      "bytes": 2639,
+      "sha256": "71b05ca6480dd7025414c416075a239c56e9ba3df864cd310b1d4ef0761a81a1"
+    },
+    {
+      "path": "data/runtime-v037/specialItems.jgz",
+      "bytes": 3383,
+      "sha256": "371068005f0c3b2b5998692680b88da5465aca98aefeea4343faf9d7d3bdbd78"
+    },
+    {
+      "path": "data/runtime-v037/specialMeta.jgz",
+      "bytes": 839,
+      "sha256": "0407b70c9f984e949b7155427e84af6937418cde60c962157e7418568efe1f46"
+    },
+    {
+      "path": "data/runtime-v037/stages.jgz",
+      "bytes": 507408,
+      "sha256": "d305964ef5a1839214181eaf4be0676cbc9cd1f41d4dc2bd2eb20116e9ffdd00"
+    },
+    {
+      "path": "data/runtime-v037/strategy.jgz",
+      "bytes": 330749,
+      "sha256": "853aabc8592c4f1fb4723b00485de7db3d191196a3dc22d7fd8cecde411da960"
+    },
+    {
+      "path": "data/runtime-v037/strategyStory.jgz",
+      "bytes": 23752,
+      "sha256": "4832c8385dd9c7f5b8e6b2901b90af13a3e8f354170dd1597814fa06562eaa98"
+    },
+    {
+      "path": "data/runtime-v037/visualCoverage.jgz",
+      "bytes": 510,
+      "sha256": "636e7061f92ed5982bf190b54b4a0558bbbee1d0758cae1a62179a62dce517d1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 155,
+      "sha256": "d58513b7df42bd77cd1f3ed8c2ec053b0a0d94447ce44b9923c77562760f4fa2"
+    },
+    {
+      "path": "web/css/encyclopedia-v037.css",
+      "bytes": 11395,
+      "sha256": "b255fe79ac6e36b9fca77caef95026008e1ee7d4aad22d1bce7179d05b80e339"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1977,
+      "sha256": "29e1f0545f82ed5774340b5db367c79b33eeed07f9c7f15cb657390c9e661959"
+    },
+    {
+      "path": "web/js/data-loader-v037.js",
+      "bytes": 1211,
+      "sha256": "cd0b175aacae11270d3db8b56b2d27300fddcdb424b31ce7acc7a4e4d39aee65"
+    },
+    {
+      "path": "web/js/deck-engine-v036.js",
+      "bytes": 5633,
+      "sha256": "34ec3dfbec142068e7c6aaeac7dbcf208d56dbca444bba133cabab14a4917b75"
+    },
+    {
+      "path": "web/js/encyclopedia-v037.js",
+      "bytes": 25454,
+      "sha256": "8e9a83265f1eab6c1a741c7e931374682227bc2ddd6922050eb9cd9bcb576a16"
+    },
+    {
+      "path": "web/js/image-resolver-v037.js",
+      "bytes": 790,
+      "sha256": "6041bea407ea2100dda59877fbccc27e86de0efecf0d0597e93ab3c7a6498226"
+    },
+    {
+      "path": "web/js/layout-v030.js",
+      "bytes": 1354,
+      "sha256": "b750c16c39e478282a57772a50cc4ef69af8b084c6849f2341cdc5f233cf3b4c"
+    },
+    {
+      "path": "web/js/roster-v035.js",
+      "bytes": 1147,
+      "sha256": "4350632e3e484ae88baea5330770f1539736631028f5ec29656f49aa824301b9"
+    }
+  ]
+}

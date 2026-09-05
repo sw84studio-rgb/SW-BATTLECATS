@@ -3,16 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>SW BATTLE CATS 백과 V036</title>
-<link rel="stylesheet" href="css/encyclopedia-v036.css">
+<title>SW BATTLE CATS 백과 V037</title>
+<link rel="stylesheet" href="css/encyclopedia-v037.css">
 </head>
 <body>
 <header class="app-header">
   <button class="header-home" type="button" data-action="home">홈으로</button>
   <div class="brand">SW BATTLE CATS</div>
-  <div class="version"><b>V036</b><small>KR 15.5.0</small></div>
+  <div class="version"><b>V037</b><small>판본 분리</small></div>
 </header>
 <div class="search-shell">
+  <div class="platform-switch" aria-label="게임 판본">
+    <button type="button" data-platform="mobile" class="active">모바일</button>
+    <button type="button" data-platform="switch">Nintendo</button>
+    <span id="platformDataVersion" class="platform-data-version">KR 15.5.0</span>
+  </div>
   <div class="search-inner"><input id="searchInput" type="search" placeholder="캐릭터 이름 검색" autocomplete="off"></div>
 </div>
 <main id="app" class="app-main" aria-live="polite">
@@ -29,10 +34,10 @@
   <button type="button" data-mode="stage">스테이지</button>
 </nav>
 <script src="js/layout-v030.js"></script>
-<script src="js/image-resolver-v032.js"></script>
-<script src="js/image-resolver-v036.js"></script>
+<script src="js/data-loader-v037.js"></script>
+<script src="js/image-resolver-v037.js"></script>
 <script src="js/deck-engine-v036.js"></script>
 <script src="js/roster-v035.js"></script>
-<script src="js/encyclopedia-v036.js"></script>
+<script src="js/encyclopedia-v037.js"></script>
 </body>
 </html>
