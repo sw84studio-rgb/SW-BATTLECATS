@@ -1,0 +1,127 @@
+{
+  "data_version": "KR 15.5.0",
+  "entrypoint": "index.html",
+  "file_count": 23,
+  "files": [
+    {
+      "bytes": 0,
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 794,
+      "path": "README_UPLOAD_V036.md",
+      "sha256": "66066bf7e857d48884434f69b6936f51a1f31c8122946fa873a1584406016029"
+    },
+    {
+      "bytes": 455,
+      "path": "data/ENEMY_IMAGE_EXPLICIT_MAP_V031.json",
+      "sha256": "c160d1b8158dc8cbe5c539c42ab0aa768f663ee1e4ce4e721e0cdeeb3029c5d1"
+    },
+    {
+      "bytes": 1148922,
+      "path": "data/IMAGE_ASSET_MANIFEST_V032.json",
+      "sha256": "bd3c43a84c57d6906b1da3547f8aa32be92c22fa45c838c7bd02aafd6dac39c3"
+    },
+    {
+      "bytes": 617,
+      "path": "data/IMAGE_RUNTIME_POLICY_V036.json",
+      "sha256": "dc1c28ec37c68fffc234fb344b92debe9a09808846b46d2990f73b075b59e876"
+    },
+    {
+      "bytes": 4374161,
+      "path": "data/encyclopedia-cats-v030.json",
+      "sha256": "de62c6486deeaae950926666002597727f0f58385eaa3349d8f85932ffd3f322"
+    },
+    {
+      "bytes": 1334872,
+      "path": "data/encyclopedia-enemies-v030.json",
+      "sha256": "440b9c267e93390b3a5c7df3771ff1c8ee1781540dd6c68b3b9fefb29ff31ae4"
+    },
+    {
+      "bytes": 1086974,
+      "path": "data/encyclopedia-index-v030.json",
+      "sha256": "920ce17f3efabb1b4c249fcc9e21ec56fc92650112046fe107f0ab4f98da9c81"
+    },
+    {
+      "bytes": 9393301,
+      "path": "data/encyclopedia-stages-v030.json",
+      "sha256": "ad07fcd76994d1b8684fea08bf6c9aa0d98d486fc3ed9e0b3778802637f73baa"
+    },
+    {
+      "bytes": 1870,
+      "path": "data/progression-v036.json",
+      "sha256": "1d10076f2581dc926eb352a0ff1c3e921c10d38e45963971ddcdd44355cf8f8a"
+    },
+    {
+      "bytes": 23936784,
+      "path": "data/special-v036.json",
+      "sha256": "c3623e5e6ac1284a2dc178f542b3bcb22575405efc5709af95302b7353515725"
+    },
+    {
+      "bytes": 7960234,
+      "path": "data/stage-hierarchy-v036.json",
+      "sha256": "82e3a6c7a2789680af52458a80e16c079ef3eb28c38d2e9b765ac45f86e35f08"
+    },
+    {
+      "bytes": 6438093,
+      "path": "data/strategy-runtime-v034.json",
+      "sha256": "186c275b0e7130b022923be0afc9806df9c199669eac51187ab3d085b336619f"
+    },
+    {
+      "bytes": 1212298,
+      "path": "data/strategy-story-v036.json",
+      "sha256": "88ede15c92f00e4ab16d2519fc70d554b4ed8aad06a23b3fe754d2b2497079aa"
+    },
+    {
+      "bytes": 328,
+      "path": "index.html",
+      "sha256": "ed26eeabc81935caab1a359cdde215c2127f1feabe91f6632dbbd125b21d0b5b"
+    },
+    {
+      "bytes": 10209,
+      "path": "web/css/encyclopedia-v036.css",
+      "sha256": "73a0aaf9b33c80109f5189ebb4e90df41cf415ff2f9a97c56580b8eaaf7d4c0d"
+    },
+    {
+      "bytes": 1676,
+      "path": "web/index.html",
+      "sha256": "ef47297ff21b9ff9a37d5234c246e4f7caa3e89bf25694d1c517c2c216420114"
+    },
+    {
+      "bytes": 5633,
+      "path": "web/js/deck-engine-v036.js",
+      "sha256": "34ec3dfbec142068e7c6aaeac7dbcf208d56dbca444bba133cabab14a4917b75"
+    },
+    {
+      "bytes": 23612,
+      "path": "web/js/encyclopedia-v036.js",
+      "sha256": "9a5e29215ebccb85b3aeba05e6489ddb0c94806354389edce69c6081750757a2"
+    },
+    {
+      "bytes": 1068,
+      "path": "web/js/image-resolver-v032.js",
+      "sha256": "0ed379515bbc2ed5989adac6282831ee198c567c7a884f475f03b197878b766b"
+    },
+    {
+      "bytes": 963,
+      "path": "web/js/image-resolver-v036.js",
+      "sha256": "f7065fb89567784ca23c83811ee818fa18b2d1ad2680621f30c21b2d5da13203"
+    },
+    {
+      "bytes": 1354,
+      "path": "web/js/layout-v030.js",
+      "sha256": "b750c16c39e478282a57772a50cc4ef69af8b084c6849f2341cdc5f233cf3b4c"
+    },
+    {
+      "bytes": 1147,
+      "path": "web/js/roster-v035.js",
+      "sha256": "4350632e3e484ae88baea5330770f1539736631028f5ec29656f49aa824301b9"
+    }
+  ],
+  "hosting": "static",
+  "project": "SW BATTLECATS",
+  "runtime_entrypoint": "web/index.html",
+  "sql_changes": false,
+  "version": "V036"
+}
