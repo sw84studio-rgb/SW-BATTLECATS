@@ -1,0 +1,49 @@
+{
+  "schema": "sw_battlecats_delta_manifest_v040",
+  "version": "V040",
+  "base_version": "V039",
+  "changed_files": [
+    {
+      "path": "README_V040_UI_CLEANUP.md",
+      "bytes": 1854,
+      "sha256": "edbf248cd45bddc97cccd1965244069514ad10f4c5e8e1358f215bfc282c95c9"
+    },
+    {
+      "path": "V040_SPECIAL_DISPLAY_AUDIT.json",
+      "bytes": 597,
+      "sha256": "23a1acb9c7d391c2dfb95c4d57da53c1c794e0e0dc2f3f3aa89b7541aea4adff"
+    },
+    {
+      "path": "V040_VALIDATION_REPORT.json",
+      "bytes": 4938,
+      "sha256": "b7cd5b9623edd8905fdcc1d90c9a8f64b00626ae6766f353bb3faebac6a3d1d5"
+    },
+    {
+      "path": "data/runtime-v040/manifest.json",
+      "bytes": 6064,
+      "sha256": "22e6bfc6855a3efbf69eb8a1dbc8cd33628ccc7fb6bfd78a6760a9680e07c3a6"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1923,
+      "sha256": "2038e5421de95116261d82709a2d1e0a1b8ab5cc0da21506e0864e3acb127725"
+    },
+    {
+      "path": "web/css/encyclopedia-v040.css",
+      "bytes": 14519,
+      "sha256": "378d04c300823c2ea9a3b11fa9d1248da92060240e0ef91d174ce7e70614ab82"
+    },
+    {
+      "path": "web/js/data-loader-v040.js",
+      "bytes": 1188,
+      "sha256": "0b32188d468e38a15b95a611cac2374c316f33c42fdf08d22ea8f230e4fff5e8"
+    },
+    {
+      "path": "web/js/encyclopedia-v040.js",
+      "bytes": 30657,
+      "sha256": "f8809146bac6655eff523f22d32597f01771197c92fa311d450d8d40150003e6"
+    }
+  ],
+  "changed_file_count": 8,
+  "sql_changed": false
+}

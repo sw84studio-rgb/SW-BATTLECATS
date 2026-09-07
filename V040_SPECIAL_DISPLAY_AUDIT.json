@@ -1,0 +1,10 @@
+{
+  "schema": "sw_battlecats_special_display_audit_v040",
+  "version": "V040",
+  "raw_items": 253,
+  "display_items": 134,
+  "duplicate_or_unverified_duplicate_rows_hidden": 119,
+  "display_items_with_verified_image": 66,
+  "display_items_without_verified_image": 68,
+  "policy": "원본 253행은 보존. 사용자 텍스트(이름+분류+설명)가 같은 행은 묶되, 서로 다른 검증 이미지 해시는 별도 변형으로 유지하고, 검증 이미지가 하나도 없는 동일 항목은 1개만 표시합니다. 검증되지 않은 이미지는 임의 대체하지 않습니다."
+}

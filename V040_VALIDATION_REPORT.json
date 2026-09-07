@@ -1,0 +1,206 @@
+{
+  "schema": "sw_battlecats_validation_report_v040",
+  "version": "V040",
+  "base_version": "V039",
+  "summary": {
+    "pass": 38,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "check": "index references V040 css",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "index references V040 loader",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "index references V040 encyclopedia",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "visible header no hardcoded V039",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "embedded child header hide rule",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "embedded top offset reset",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "host version sync code",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "special no-image single column",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "special row emits no-image class",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "special display grouping active",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "detail native-scale guard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "detail image no forced full width",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "list thumbnails unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "node --check web/js/data-loader-v040.js",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "node --check web/js/encyclopedia-v040.js",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "runtime manifest version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "runtime cats",
+      "status": "PASS",
+      "detail": "data/runtime-v038/cats.jgz"
+    },
+    {
+      "check": "runtime enemies",
+      "status": "PASS",
+      "detail": "data/runtime-v039/enemies.jgz"
+    },
+    {
+      "check": "runtime enemyImageMap",
+      "status": "PASS",
+      "detail": "data/runtime-v037/enemyImageMap.jgz"
+    },
+    {
+      "check": "runtime hierarchy",
+      "status": "PASS",
+      "detail": "data/runtime-v037/hierarchy.jgz"
+    },
+    {
+      "check": "runtime index",
+      "status": "PASS",
+      "detail": "data/runtime-v038/index.jgz"
+    },
+    {
+      "check": "runtime platforms",
+      "status": "PASS",
+      "detail": "data/runtime-v039/platforms.jgz"
+    },
+    {
+      "check": "runtime progression",
+      "status": "PASS",
+      "detail": "data/runtime-v037/progression.jgz"
+    },
+    {
+      "check": "runtime specialCombos",
+      "status": "PASS",
+      "detail": "data/runtime-v037/specialCombos.jgz"
+    },
+    {
+      "check": "runtime specialGacha",
+      "status": "PASS",
+      "detail": "data/runtime-v037/specialGacha.jgz"
+    },
+    {
+      "check": "runtime specialItems",
+      "status": "PASS",
+      "detail": "data/runtime-v038/specialItems.jgz"
+    },
+    {
+      "check": "runtime specialMeta",
+      "status": "PASS",
+      "detail": "data/runtime-v037/specialMeta.jgz"
+    },
+    {
+      "check": "runtime stages",
+      "status": "PASS",
+      "detail": "data/runtime-v037/stages.jgz"
+    },
+    {
+      "check": "runtime strategy",
+      "status": "PASS",
+      "detail": "data/runtime-v037/strategy.jgz"
+    },
+    {
+      "check": "runtime strategyStory",
+      "status": "PASS",
+      "detail": "data/runtime-v037/strategyStory.jgz"
+    },
+    {
+      "check": "runtime visualAssets",
+      "status": "PASS",
+      "detail": "data/runtime-v038/visualAssets.jgz"
+    },
+    {
+      "check": "runtime visualCoverage",
+      "status": "PASS",
+      "detail": "data/runtime-v038/visualCoverage.jgz"
+    },
+    {
+      "check": "runtime stageVisualAssets",
+      "status": "PASS",
+      "detail": "data/runtime-v039/stageVisualAssets.jgz"
+    },
+    {
+      "check": "special raw count preserved",
+      "status": "PASS",
+      "detail": "253"
+    },
+    {
+      "check": "special display count",
+      "status": "PASS",
+      "detail": "134"
+    },
+    {
+      "check": "special hidden duplicate count",
+      "status": "PASS",
+      "detail": "119"
+    },
+    {
+      "check": "special verified display image count",
+      "status": "PASS",
+      "detail": "66"
+    },
+    {
+      "check": "special unverified display image count",
+      "status": "PASS",
+      "detail": "68"
+    }
+  ],
+  "deployment_runtime_test": "NOT_RUN_IN_THIS_ENVIRONMENT",
+  "deployment_note": "실제 Render/SW GAME 부모 셸에서 V040 표기와 2중 헤더 제거는 배포 후 확인 필요. 코드상 임베드(내부 헤더 숨김/동일 출처 부모 버전 동기화)와 독립 실행 경로를 분리했습니다.",
+  "browser_automation": "BLOCKED_BY_ENVIRONMENT",
+  "device_test": "NOT_RUN",
+  "sql_changed": false
+}
