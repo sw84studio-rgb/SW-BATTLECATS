@@ -1,0 +1,64 @@
+{
+  "schema": "sw_battlecats_delta_manifest_v039",
+  "version": "V039",
+  "base_version": "V038",
+  "changed_files": [
+    {
+      "path": "PLATFORM_DATA_POLICY_V039.md",
+      "bytes": 1065,
+      "sha256": "5fd7a0a588f247fc084be99e3ebf893c0441993e6f653c162c5af2ec13986337"
+    },
+    {
+      "path": "README_V039_ENEMY_STAGE_PLATFORM.md",
+      "bytes": 1393,
+      "sha256": "4d747556e8b7c9459054b5c12cc3250e1cdff8e4ccd3a14a0ca341a4c6742a4f"
+    },
+    {
+      "path": "V039_VALIDATION_REPORT.json",
+      "bytes": 4858,
+      "sha256": "0ecb3f70bd1baa0bd507d702553c8f15c024f51fd267c96c761cfa1936907e74"
+    },
+    {
+      "path": "data/runtime-v039/enemies.jgz",
+      "bytes": 174989,
+      "sha256": "d8a3a770cdeecb5efba1cafd01d54970588304547d74d57dc0670bd9bf059eeb"
+    },
+    {
+      "path": "data/runtime-v039/manifest.json",
+      "bytes": 5864,
+      "sha256": "ef43bac78897c824700de36ad1eb3f982240565c7e3985991fe6f9f88a51547b"
+    },
+    {
+      "path": "data/runtime-v039/platforms.jgz",
+      "bytes": 697,
+      "sha256": "3cfdf931116d6f304f412fb3fe4ea5c647ae28f0a900af84cc1116d590c854e6"
+    },
+    {
+      "path": "data/runtime-v039/stageVisualAssets.jgz",
+      "bytes": 485,
+      "sha256": "c9715674e2f22788f1aff5200a4ffdd65756f26f86d5eacbfcef34de03817cf5"
+    },
+    {
+      "path": "web/css/encyclopedia-v039.css",
+      "bytes": 13622,
+      "sha256": "1bf4b7174d9efd8964d12ebd1d60b25bf92badb368c175c7e6e18e44b18443b7"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1944,
+      "sha256": "c7f48ce7b2eb93213aa7fe269e0995bd1c86c2a2deaa6495d1bf066f1d372633"
+    },
+    {
+      "path": "web/js/data-loader-v039.js",
+      "bytes": 1188,
+      "sha256": "cc45c8e631f81a51ba321f66d9aee8c93b2c84f2c93404cd00da53682c47ec0e"
+    },
+    {
+      "path": "web/js/encyclopedia-v039.js",
+      "bytes": 27613,
+      "sha256": "1ca5ac2f81d9f595a3c299755782833611a7a7f50ecbc045ead717b48b5c0997"
+    }
+  ],
+  "changed_file_count": 11,
+  "sql_changed": false
+}

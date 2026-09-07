@@ -1,0 +1,197 @@
+{
+  "schema": "sw_battlecats_v039_validation_report",
+  "version": "V039",
+  "base": "V038 FULL",
+  "enemy": {
+    "total": 585,
+    "verified_ko_stage_links_entries": 557,
+    "raw_spawn_but_ko_stage_name_unresolved_entries": 28,
+    "no_raw_spawn_entries": 0,
+    "unresolved": [
+      {
+        "enemy_id": 216,
+        "entry_id": "enemy:216",
+        "name_ko": "검사",
+        "raw_stage_count": 16
+      },
+      {
+        "enemy_id": 217,
+        "entry_id": "enemy:217",
+        "name_ko": "기마병",
+        "raw_stage_count": 17
+      },
+      {
+        "enemy_id": 218,
+        "entry_id": "enemy:218",
+        "name_ko": "아수라",
+        "raw_stage_count": 15
+      },
+      {
+        "enemy_id": 219,
+        "entry_id": "enemy:219",
+        "name_ko": "배틀 벌룬",
+        "raw_stage_count": 14
+      },
+      {
+        "enemy_id": 220,
+        "entry_id": "enemy:220",
+        "name_ko": "드래곤 라이더",
+        "raw_stage_count": 16
+      },
+      {
+        "enemy_id": 221,
+        "entry_id": "enemy:221",
+        "name_ko": "프리티 캣",
+        "raw_stage_count": 14
+      },
+      {
+        "enemy_id": 222,
+        "entry_id": "enemy:222",
+        "name_ko": "사이클롭스",
+        "raw_stage_count": 14
+      },
+      {
+        "enemy_id": 223,
+        "entry_id": "enemy:223",
+        "name_ko": "골렘",
+        "raw_stage_count": 14
+      },
+      {
+        "enemy_id": 224,
+        "entry_id": "enemy:224",
+        "name_ko": "명왕의 검사",
+        "raw_stage_count": 13
+      },
+      {
+        "enemy_id": 225,
+        "entry_id": "enemy:225",
+        "name_ko": "신뢰의 흑기마병",
+        "raw_stage_count": 13
+      },
+      {
+        "enemy_id": 226,
+        "entry_id": "enemy:226",
+        "name_ko": "가부키 아수라",
+        "raw_stage_count": 13
+      },
+      {
+        "enemy_id": 227,
+        "entry_id": "enemy:227",
+        "name_ko": "배틀 벌룬 UFO",
+        "raw_stage_count": 13
+      },
+      {
+        "enemy_id": 228,
+        "entry_id": "enemy:228",
+        "name_ko": "플레임 드래곤 라이더",
+        "raw_stage_count": 12
+      },
+      {
+        "enemy_id": 229,
+        "entry_id": "enemy:229",
+        "name_ko": "사이버 프리티 캣",
+        "raw_stage_count": 13
+      },
+      {
+        "enemy_id": 230,
+        "entry_id": "enemy:230",
+        "name_ko": "시공의 사이클롭스",
+        "raw_stage_count": 13
+      },
+      {
+        "enemy_id": 231,
+        "entry_id": "enemy:231",
+        "name_ko": "볼케이노 골렘",
+        "raw_stage_count": 13
+      },
+      {
+        "enemy_id": 421,
+        "entry_id": "enemy:421",
+        "name_ko": "신 (진심)",
+        "raw_stage_count": 2
+      },
+      {
+        "enemy_id": 448,
+        "entry_id": "enemy:448",
+        "name_ko": "파이널 기가 그랜드 신",
+        "raw_stage_count": 2
+      },
+      {
+        "enemy_id": 449,
+        "entry_id": "enemy:449",
+        "name_ko": "스타 필리버스터",
+        "raw_stage_count": 2
+      },
+      {
+        "enemy_id": 645,
+        "entry_id": "enemy:645",
+        "name_ko": "대마도사 미몬",
+        "raw_stage_count": 1
+      },
+      {
+        "enemy_id": 704,
+        "entry_id": "enemy:704",
+        "name_ko": "졸병 멍뭉이",
+        "raw_stage_count": 40
+      },
+      {
+        "enemy_id": 705,
+        "entry_id": "enemy:705",
+        "name_ko": "장수 대갈이군",
+        "raw_stage_count": 2
+      },
+      {
+        "enemy_id": 706,
+        "entry_id": "enemy:706",
+        "name_ko": "장수 야옹마",
+        "raw_stage_count": 3
+      },
+      {
+        "enemy_id": 707,
+        "entry_id": "enemy:707",
+        "name_ko": "장수 반야아왕",
+        "raw_stage_count": 3
+      },
+      {
+        "enemy_id": 708,
+        "entry_id": "enemy:708",
+        "name_ko": "장수 맴매 선생",
+        "raw_stage_count": 1
+      },
+      {
+        "enemy_id": 709,
+        "entry_id": "enemy:709",
+        "name_ko": "반역의 마왕 하데스",
+        "raw_stage_count": 4
+      },
+      {
+        "enemy_id": 720,
+        "entry_id": "enemy:720",
+        "name_ko": "초코서프 고양이 캡슐",
+        "raw_stage_count": 1
+      },
+      {
+        "enemy_id": 723,
+        "entry_id": "enemy:723",
+        "name_ko": "페리 함장",
+        "raw_stage_count": 4
+      }
+    ]
+  },
+  "stage_visuals": {
+    "verified_stage_visuals": 0,
+    "backgrounds": 0,
+    "enemy_bases": 0
+  },
+  "platforms": {
+    "mobile": "AVAILABLE_KR_15.5.0",
+    "switch": "LOCKED_CANONICAL_NOT_IMPORTED"
+  },
+  "sql_changed": false,
+  "tests": [
+    "runtime manifest 17 keys: existence/gzip/json/hash PASS",
+    "enemy status partition: 557+28+0=585 PASS",
+    "stage visuals missing => no placeholder policy preserved",
+    "Nintendo category availability locked until canonical import"
+  ]
+}
