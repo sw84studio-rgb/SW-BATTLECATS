@@ -1,0 +1,170 @@
+{
+  "basis": "V037 runtime + FIXED5 collected assets",
+  "counts": {
+    "cat_distinct_visuals": 1973,
+    "cat_hidden_non_distinct": 363,
+    "cat_hidden_unverified_ko_name_additional": 21,
+    "cat_hidden_unverified_ko_name_total": 22,
+    "cat_local_distinct_visuals": 1973,
+    "cat_raw_slots": 2336,
+    "cat_shared_egg_assignments": 52,
+    "cat_visible_named_catalog": 1952,
+    "enemy_local_visuals": 585,
+    "special_core_icons": 67
+  },
+  "egg_mapping": {
+    "black": "s/4/0.png",
+    "dark": "s/5/0.png",
+    "elder": "s/10/0.png",
+    "green": "s/3/0.png",
+    "mystic": "s/1/0.png",
+    "note": "All normal Ancient Egg forms share the same weathered appearance; evolved forms use the verified named shell color/type. Shared assets avoid duplicate files.",
+    "old": "s/0/0.png",
+    "red": "s/2/0.png",
+    "teal": "s/7/0.png",
+    "violet": "s/8/0.png",
+    "yellow": "s/6/0.png"
+  },
+  "extra_non_distinct_verification": [
+    {
+      "raw_form": 3,
+      "source": "https://battlecats.anypupil.com/cats.php?effect=4&lang=ko",
+      "unit_id": 635,
+      "verified_public_forms": 2
+    },
+    {
+      "raw_form": 3,
+      "source": "https://battlecats.anypupil.com/cats1.php?catid=648&lang=ko",
+      "unit_id": 648,
+      "verified_public_forms": 2
+    },
+    {
+      "note": "public CAT 789 corresponds zero-based unit_id 788",
+      "raw_form": 3,
+      "source": "https://battlecats.anypupil.com/cats.php?effect=4&lang=ko",
+      "unit_id": 788,
+      "verified_public_forms": 2
+    }
+  ],
+  "known_unverified": [
+    "Nintendo overlap/platform assignments",
+    "KR text-bearing banners",
+    "stage/castle representative art",
+    "ability/trait icons containing JP/TW glyphs"
+  ],
+  "schema": "sw_battlecats_v038_asset_mapping_audit",
+  "special_item_policy": "Only language-neutral core categories plus verified core resource IDs are promoted. Other 719 review images remain out of runtime until canonical/localization review.",
+  "unverified_ko_name_quarantine": [
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:729:1",
+      "raw_label": "730_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:732:1",
+      "raw_label": "733_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:734:1",
+      "raw_label": "735_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:739:1",
+      "raw_label": "740_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:755:1",
+      "raw_label": "756_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:761:1",
+      "raw_label": "762_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:764:1",
+      "raw_label": "765_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:770:1",
+      "raw_label": "771-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:775:1",
+      "raw_label": "776-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:782:1",
+      "raw_label": "783-1"
+    },
+    {
+      "already_non_distinct": true,
+      "entry_id": "cat:788:3",
+      "raw_label": "789-2"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:800:1",
+      "raw_label": "801-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:802:1",
+      "raw_label": "802-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:812:1",
+      "raw_label": "812-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:816:1",
+      "raw_label": "817-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:818:1",
+      "raw_label": "819-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:821:1",
+      "raw_label": "822_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:825:1",
+      "raw_label": "826-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:838:1",
+      "raw_label": "839-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:839:1",
+      "raw_label": "840-1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:855:1",
+      "raw_label": "856_1"
+    },
+    {
+      "already_non_distinct": false,
+      "entry_id": "cat:860:1",
+      "raw_label": "861_1"
+    }
+  ],
+  "version": "V038"
+}
