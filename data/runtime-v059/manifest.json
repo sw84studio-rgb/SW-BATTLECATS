@@ -1,0 +1,192 @@
+{
+  "schema": "sw_battlecats_runtime_manifest_v059",
+  "version": "V059",
+  "files": {
+    "cats": {
+      "compressed_bytes": 320639,
+      "compression": "gzip",
+      "file": "../runtime-v038/cats.jgz",
+      "json_sha256": "35443bdbc0c5cb6541e82f350367e0c17537209bc6efea6230ce12737398a297",
+      "raw_bytes": 4584777,
+      "sha256": "fd60a7b546d235320f07e74df4e54d7b6a2b786757299c5e7d57d996490aeed7"
+    },
+    "enemies": {
+      "compressed_bytes": 174989,
+      "compression": "gzip",
+      "file": "../runtime-v039/enemies.jgz",
+      "json_sha256": "c18a75c1e4604cf417230a4bb00acce6f7b8189bd62a3241b622e89f5d47d35e",
+      "raw_bytes": 1467250,
+      "sha256": "d8a3a770cdeecb5efba1cafd01d54970588304547d74d57dc0670bd9bf059eeb"
+    },
+    "enemyImageMap": {
+      "compressed_bytes": 374,
+      "compression": "gzip",
+      "file": "../runtime-v037/enemyImageMap.jgz",
+      "json_sha256": "47fea6180a382db9acd98adade671ef02a1d7c54736c49c1d5189af2041f0ab8",
+      "raw_bytes": 454,
+      "sha256": "5f14063f4792f2dd00f0adbf00ef4c81f0c1cd2b26b56052eae7550450e52380"
+    },
+    "hierarchy": {
+      "compressed_bytes": 357745,
+      "compression": "gzip",
+      "file": "../runtime-v037/hierarchy.jgz",
+      "json_sha256": "8ac1920aa55ed663b6b064c7745d8c63ab7a25052261d0e4d3dd4581fb4dd36d",
+      "raw_bytes": 5103500,
+      "sha256": "a676474e53953c79e2c3b9ccfbc80c94ed467614397ab86444a6f8b3800eabaf"
+    },
+    "index": {
+      "compressed_bytes": 115124,
+      "compression": "gzip",
+      "file": "../runtime-v038/index.jgz",
+      "json_sha256": "08eb5152ef4e2e535dcdf0a11006a1f5f7e8475f26b48538b24d967a95886b5b",
+      "raw_bytes": 1097154,
+      "sha256": "9b0a1fe1e054aa29b764ce3d295f33bb4b68c4cec3146395e84f85bbe2e16c5f"
+    },
+    "platforms": {
+      "compressed_bytes": 697,
+      "compression": "gzip",
+      "file": "../runtime-v039/platforms.jgz",
+      "json_sha256": "82e73dd74dfb3fc2029c8adb5336ed59b78b896e0cb03adef4fa0412a44d43b9",
+      "raw_bytes": 1127,
+      "sha256": "3cfdf931116d6f304f412fb3fe4ea5c647ae28f0a900af84cc1116d590c854e6"
+    },
+    "progression": {
+      "compressed_bytes": 584,
+      "compression": "gzip",
+      "file": "../runtime-v037/progression.jgz",
+      "json_sha256": "c5b7fc20ea53728c07b1c64efa2f041a23753c5edd21388461c28fc4d258deb7",
+      "raw_bytes": 1299,
+      "sha256": "b7a79d8ff0448d6e3d2856869115f268ebf0b28c18c973ef1b3231cd847830e0"
+    },
+    "specialCombos": {
+      "compressed_bytes": 16197,
+      "compression": "gzip",
+      "file": "../runtime-v037/specialCombos.jgz",
+      "json_sha256": "68a8fdb055bb040fc7201bb4e0e01fc86e9cddf8a53ac97f60c9440b397440fa",
+      "raw_bytes": 151251,
+      "sha256": "8402ce5c134538a66b7d927d6566f192cdc015c2e0fb9ae492d2bde34db4de9c"
+    },
+    "specialGacha": {
+      "compressed_bytes": 2639,
+      "compression": "gzip",
+      "file": "../runtime-v037/specialGacha.jgz",
+      "json_sha256": "ea6b4e3df27dde00fc3a45616d786d7591a8ce03d3602891f97b5bf4a2b6747c",
+      "raw_bytes": 29677,
+      "sha256": "71b05ca6480dd7025414c416075a239c56e9ba3df864cd310b1d4ef0761a81a1"
+    },
+    "specialItems": {
+      "compressed_bytes": 20771,
+      "raw_bytes": 194837,
+      "sha256": "0c1361aba0b97a206888362999ad350232c15af90aca4fed4b195a9625dea790",
+      "json_sha256": "73ad42daece070118f5ea2f9bfd7341e88bdb30606b139985689fb33258eac75",
+      "compression": "gzip",
+      "file": "../runtime-v055/specialItems.jgz"
+    },
+    "specialMeta": {
+      "compressed_bytes": 839,
+      "compression": "gzip",
+      "file": "../runtime-v037/specialMeta.jgz",
+      "json_sha256": "b350922c5090d7216a18b4c8d844cad8fc82662c3f50cdb054d1825414e46f16",
+      "raw_bytes": 1422,
+      "sha256": "0407b70c9f984e949b7155427e84af6937418cde60c962157e7418568efe1f46"
+    },
+    "stages": {
+      "compressed_bytes": 507408,
+      "compression": "gzip",
+      "file": "../runtime-v037/stages.jgz",
+      "json_sha256": "ad07fcd76994d1b8684fea08bf6c9aa0d98d486fc3ed9e0b3778802637f73baa",
+      "raw_bytes": 9393301,
+      "sha256": "d305964ef5a1839214181eaf4be0676cbc9cd1f41d4dc2bd2eb20116e9ffdd00"
+    },
+    "strategy": {
+      "compressed_bytes": 330749,
+      "compression": "gzip",
+      "file": "../runtime-v037/strategy.jgz",
+      "json_sha256": "f4ae97e8653c238920c12952931c509d39008e06ee674dcc10622f58120bfb0b",
+      "raw_bytes": 6438092,
+      "sha256": "853aabc8592c4f1fb4723b00485de7db3d191196a3dc22d7fd8cecde411da960"
+    },
+    "strategyStory": {
+      "compressed_bytes": 23752,
+      "compression": "gzip",
+      "file": "../runtime-v037/strategyStory.jgz",
+      "json_sha256": "d8d4035d69c4ec4a615b30bf8d3240e99c220e87297976f33184a48f153ed7ad",
+      "raw_bytes": 754773,
+      "sha256": "4832c8385dd9c7f5b8e6b2901b90af13a3e8f354170dd1597814fa06562eaa98"
+    },
+    "visualAssets": {
+      "compressed_bytes": 132087,
+      "compression": "gzip",
+      "file": "../runtime-v055/visualAssets.jgz",
+      "json_sha256": "498bb39f413039e1c63aa142de5a9260d39d00a73a2059d7c64515f5b007d46b",
+      "raw_bytes": 740937,
+      "sha256": "8e906c171c6542bd2d820fda76c397ed6b77a127a6a285dd5a4821a9ac44f407"
+    },
+    "visualCoverage": {
+      "compressed_bytes": 499,
+      "compression": "gzip",
+      "file": "../runtime-v038/visualCoverage.jgz",
+      "json_sha256": "5eb0bfb8e4db77f21c84b633f2636188bd89b6f4f7e62b63c18a58d9668dcb48",
+      "raw_bytes": 874,
+      "sha256": "5956fab2bd0a62d247f263b49bfb4ba62b0972a21637c7ce5ba256efaa051032"
+    },
+    "stageVisualAssets": {
+      "compressed_bytes": 485,
+      "compression": "gzip",
+      "file": "../runtime-v039/stageVisualAssets.jgz",
+      "json_sha256": "b7aebcc8f5399f3b4c992933aaa4d9386a328088c10c4fdda1c6dd4235e2f093",
+      "raw_bytes": 663,
+      "sha256": "c9715674e2f22788f1aff5200a4ffdd65756f26f86d5eacbfcef34de03817cf5"
+    },
+    "stageVisualIndex": {
+      "compressed_bytes": 346147,
+      "raw_bytes": 3459127,
+      "sha256": "60da8fa56cf69637f9e28445b45cddc8f4a085518ecef1b6b6d79a547349fa7a",
+      "json_sha256": "cd4267df096f75183a254b82da96c01096faf68b0d59175c9f6b0a452fd76540",
+      "compression": "gzip",
+      "file": "../runtime-v058/stageVisualIndex.jgz"
+    },
+    "stageBackgroundEffects": {
+      "compressed_bytes": 12686,
+      "raw_bytes": 224909,
+      "sha256": "dc5544f0a30ed35187c6d0e2f8e05037308f8f0cd9609a331b3544cb8f6165a0",
+      "json_sha256": "cad65d2b48a18f0d54fe2a6c1da943be71939e9021c807e679babd6c88eaee64",
+      "compression": "gzip",
+      "file": "../runtime-v057/stageBackgroundEffects.jgz"
+    },
+    "enemyBaseRegistry": {
+      "compressed_bytes": 10515,
+      "raw_bytes": 74531,
+      "sha256": "cc92e4ad01d8d51449f885174aca5e521d23cd29001a018a314c7896a550a132",
+      "json_sha256": "5d96a664e8d89730574cb8e85bbd71c215286798862ff8910469f333ff934a58",
+      "compression": "gzip",
+      "file": "../runtime-v058/enemyBaseRegistry.jgz"
+    },
+    "stageAssetAcquisition": {
+      "compressed_bytes": 54206,
+      "raw_bytes": 398863,
+      "sha256": "8498352bf654fc53fd0e26a4c1f9055e15c995eee2c109bcad4541f1831cbeef",
+      "json_sha256": "d73d79f656b0e04eb9cf82b91563d52b2287719a35e93aa6de3dac464ff95fd3",
+      "compression": "gzip",
+      "file": "stageAssetAcquisition.jgz"
+    },
+    "mainStoryEnemyBaseLayout": {
+      "compressed_bytes": 3717,
+      "raw_bytes": 28540,
+      "sha256": "34400dbf38f3029d722de6ade953728dd114db6bc105776904bb95d0275cb827",
+      "json_sha256": "ae1d14ab873c37b002dcdcef2a84463b9849c1eb1bfb4aa52976226786d3aee9",
+      "compression": "gzip",
+      "file": "mainStoryEnemyBaseLayout.jgz"
+    }
+  },
+  "totals": {
+    "changed_runtime_files": 2,
+    "file_count": 22,
+    "compressed_bytes_local_v059": 57923
+  },
+  "release": {
+    "version": "V059",
+    "note": "스테이지 이미지 수집 우선순위 및 성 배치 원본 메타 정리",
+    "base": "V058 internal"
+  }
+}
