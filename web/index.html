@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>SW BATTLE CATS 백과</title>
-<link rel="stylesheet" href="css/encyclopedia-v055.css">
+<link rel="stylesheet" href="css/encyclopedia-v090.css">
 </head>
 <body>
 <header class="app-header">
@@ -15,8 +15,11 @@
 <div class="search-shell">
   <div class="search-inner" aria-label="검색 및 게임 판본">
     <input id="searchInput" type="search" placeholder="캐릭터 이름 검색" autocomplete="off">
-    <button type="button" data-platform="mobile" class="platform-btn active">모바일</button>
-    <button type="button" data-platform="switch" class="platform-btn">닌텐도</button>
+    <div class="platform-tabs" role="tablist" aria-label="게임 판본 선택">
+      <button type="button" data-platform="mobile" class="platform-btn active" role="tab" aria-selected="true">모바일판</button>
+      <button type="button" data-platform="switch" class="platform-btn" role="tab" aria-selected="false">Nintendo판</button>
+    </div>
+    <span id="platformDataVersion" class="platform-data-version-inline"></span>
   </div>
 </div>
 <main id="app" class="app-main" aria-live="polite">
@@ -33,11 +36,11 @@
   <button type="button" data-mode="stage">스테이지</button>
 </nav>
 <script src="js/layout-v030.js"></script>
-<script src="js/data-loader-v089.js"></script>
+<script src="js/data-loader-v090.js"></script>
 <script src="js/image-resolver-v038.js"></script>
 <script src="js/deck-engine-v036.js"></script>
 <script src="js/roster-v035.js"></script>
 <script src="js/marks-v054.js"></script>
-<script src="js/encyclopedia-v089.js"></script>
+<script src="js/encyclopedia-v090.js"></script>
 </body>
 </html>
