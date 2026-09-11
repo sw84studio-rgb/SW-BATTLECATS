@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "policy_id": "battlecats-kr-safe-update-v1",
+  "stable_only": true,
+  "automatic_detection": {
+    "kr_ios_stable": true,
+    "project_data_version": true,
+    "kr_android_release_signal": false
+  },
+  "auto_safe": [
+    "approved baseline metadata",
+    "version candidate/report generation",
+    "current runtime inventory/count audit",
+    "duplicate/missing/internal-field candidate classification"
+  ],
+  "review_required": [
+    "Korean names",
+    "acquisition sources and links",
+    "enemy appearance stages",
+    "trait icons and trait mappings",
+    "gacha series classification",
+    "natural-language descriptions",
+    "stage hierarchy and reward links",
+    "runtime data replacement"
+  ],
+  "protected_corrections": [
+    "user-approved Korean names including Unit 673 치타",
+    "V098 official KR trait icons",
+    "V100 duplicate-link cleanup behavior",
+    "validated acquisition-source corrections",
+    "validated enemy-stage links"
+  ],
+  "approval_required": true,
+  "auto_overwrite_runtime_data": false,
+  "baseline_restore": true,
+  "rerun_modes": ["current", "selected"],
+  "source_priority": [
+    "project internal source/runtime data",
+    "official PONOS/official app-store release metadata",
+    "trusted external verification only"
+  ]
+}

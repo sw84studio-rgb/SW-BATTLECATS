@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "baseline_id": "KR15.5.0_DATA15.5.0_20260911",
+  "checked_at": "2026-09-11T00:00:00Z",
+  "approved_at": "2026-09-11T00:00:00Z",
+  "approval_state": "approved",
+  "kr_ios": {
+    "stable": "15.5.0",
+    "app_id": "848091833",
+    "country": "kr",
+    "watch_url": "https://itunes.apple.com/lookup?id=848091833&country=kr"
+  },
+  "project_data": {
+    "stable": "15.5.0",
+    "evidence_file": "data/stage-hierarchy-v036.json"
+  },
+  "automation": {
+    "mode": "detect_only",
+    "auto_overwrite_data": false,
+    "on_change": "open_or_refresh_github_issue",
+    "candidate_must_be_reviewed": true,
+    "restore_supported": true,
+    "history_file": "data/version-history.json",
+    "policy_file": "data/version-update-policy.json"
+  }
+}
