@@ -1,6 +1,6 @@
 {
   "schema": "sw_battlecats_runtime_manifest_v084",
-  "version": "V113",
+  "version": "V116",
   "files": {
     "cats": {
       "file": "cats.jgz",
@@ -45,10 +45,10 @@
     "platforms": {
       "file": "platforms.jgz",
       "compression": "gzip",
-      "compressed_bytes": 634,
-      "raw_bytes": 1011,
-      "sha256": "394ffde13296b6c5bd65363c3609a93ef8d7a6b3722269b7d642ecd1ba480df0",
-      "json_sha256": "591f47e0220b4caf3700b1a08b15fee6b5369a86682ab42a915051d360db75c9"
+      "compressed_bytes": 637,
+      "raw_bytes": 1018,
+      "sha256": "92243240e342b10bbc635240da6b3fd6758808e2333f878b6178dea51d936eb7",
+      "json_sha256": "1808285ca27a6eb435c253927f709514d4b261d7c59a8c757b66cdbf57141d4c"
     },
     "progression": {
       "compressed_bytes": 584,
@@ -529,6 +529,14 @@
       "raw_bytes": 505030,
       "sha256": "b1d38aeba954d8d177a947e941c3966e1ba737fce3269c3aa694fbbebb7e92ab",
       "json_sha256": "045680f9ef64987ff3e998440d1f778d92d15f12d212fb7c3f9fd161e6976ce7"
+    },
+    "nintendoSpecial": {
+      "file": "nintendoSpecial.jgz",
+      "compression": "gzip",
+      "compressed_bytes": 3571,
+      "raw_bytes": 25117,
+      "sha256": "0d5040710aa8315c451146472eefaa47275143de19663b86f35e3a826a6b7520",
+      "json_sha256": "60de892658af08640f49a58f3bc4f108666007dd1652ce3dd3ca6b972f8f9340"
     }
   },
   "totals": {
@@ -560,9 +568,9 @@
     "v095_old_special_combo_placeholder_rows_removed": 162
   },
   "release": {
-    "version": "V113",
-    "note": "Nintendo 캐릭터·적·스테이지 판본 분리"
+    "version": "V116",
+    "note": "Nintendo 특수 연결 + M/N 화면 표시 제거"
   },
   "base_runtime": "runtime-v104",
-  "base_version": "V106"
+  "base_version": "V113"
 }
