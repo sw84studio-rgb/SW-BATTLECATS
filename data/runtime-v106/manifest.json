@@ -1,6 +1,6 @@
 {
   "schema": "sw_battlecats_runtime_manifest_v084",
-  "version": "V116",
+  "version": "V117",
   "files": {
     "cats": {
       "file": "cats.jgz",
@@ -568,9 +568,9 @@
     "v095_old_special_combo_placeholder_rows_removed": 162
   },
   "release": {
-    "version": "V116",
-    "note": "Nintendo 특수 연결 + M/N 화면 표시 제거"
+    "version": "V117",
+    "note": "목록 수량을 전체 개수만 표시"
   },
   "base_runtime": "runtime-v104",
-  "base_version": "V113"
+  "base_version": "V116"
 }
