@@ -4,6 +4,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>SW BATTLE CATS 백과</title>
+<script>
+(function(){
+  'use strict';
+  var DEFAULT_GAME_ORIGIN='https://sw-nbb.onrender.com';
+  var TOKEN_PARAM='swLaunchToken',NONCE_PARAM='swLaunchNonce';
+  var embedded=false;try{embedded=window.parent!==window}catch(e){embedded=false}
+  function safeOrigin(v){try{var u=new URL(String(v||''));return /^https?:$/.test(u.protocol)?u.origin:''}catch(e){return''}}
+  var q=new URLSearchParams(location.search);
+  var gameOrigin=safeOrigin(q.get('swGameOrigin'))||DEFAULT_GAME_ORIGIN;
+  window.__SWBC_GAME_ORIGIN__=gameOrigin;
+  window.__SWBC_EMBEDDED__=embedded;
+  document.documentElement.style.visibility='hidden';
+  function returnToGame(){try{var u=new URL(gameOrigin);u.searchParams.set('returnApp','battle_cats');location.replace(u.href)}catch(e){location.replace(DEFAULT_GAME_ORIGIN+'?returnApp=battle_cats')}}
+  function scrub(){try{var u=new URL(location.href);[TOKEN_PARAM,NONCE_PARAM,'swGameOrigin','_swLaunch','_swSession'].forEach(function(k){u.searchParams.delete(k)});history.replaceState(null,'',u.pathname+(u.search||'')+(u.hash||''))}catch(e){}}
+  async function verify(){
+    var token=String(q.get(TOKEN_PARAM)||''),nonce=String(q.get(NONCE_PARAM)||'');
+    if(!token||!nonce){if(!embedded)returnToGame();return false}
+    try{
+      var r=await fetch(gameOrigin+'/api/battle-cats/launch/verify',{method:'POST',mode:'cors',cache:'no-store',credentials:'omit',headers:{'Content-Type':'application/json'},body:JSON.stringify({token:token,nonce:nonce})});
+      var d={};try{d=await r.json()}catch(e){}
+      if(!r.ok||!d||d.ok!==true||d.launch!==true)throw new Error((d&&d.error)||'냥코 대전쟁 실행 권한을 확인하지 못했습니다.');
+      scrub();document.documentElement.style.visibility='';window.__SWBC_ACCESS_ALLOWED__=true;return true;
+    }catch(e){
+      scrub();window.__SWBC_ACCESS_ALLOWED__=false;
+      if(!embedded){returnToGame();return false}
+      try{window.parent.postMessage({type:'SW_BATTLE_CATS_REQUEST_RECONNECT'},gameOrigin)}catch(_){}
+      return false;
+    }
+  }
+  window.__SWBC_ACCESS_PROMISE__=verify();
+})();
+</script>
 <link rel="stylesheet" href="css/encyclopedia-v097.css">
 </head>
 <body>
@@ -32,12 +64,12 @@
   <button type="button" data-mode="enemy">적 도감</button>
   <button type="button" data-mode="stage">스테이지</button>
 </nav>
-<script src="js/layout-v030.js"></script>
-<script src="js/data-loader-v116.js"></script>
-<script src="js/image-resolver-v038.js"></script>
-<script src="js/deck-engine-v036.js"></script>
-<script src="js/roster-v035.js"></script>
-<script src="js/marks-v098.js"></script>
-<script src="js/encyclopedia-v117.js"></script>
+<script>
+(function(){
+  var sources=['js/layout-v030.js','js/data-loader-v116.js','js/image-resolver-v038.js','js/deck-engine-v036.js','js/roster-v035.js','js/marks-v098.js','js/encyclopedia-v117.js'];
+  function loadOne(src){return new Promise(function(resolve,reject){var el=document.createElement('script');el.src=src;el.onload=resolve;el.onerror=reject;document.body.appendChild(el)})}
+  Promise.resolve(window.__SWBC_ACCESS_PROMISE__).then(async function(ok){if(!ok)return;for(var i=0;i<sources.length;i++)await loadOne(sources[i])}).catch(function(err){console.error('SW BATTLE CATS boot',err)});
+})();
+</script>
 </body>
 </html>
