@@ -1,0 +1,65 @@
+{
+  "version": "V119",
+  "base": "V118",
+  "date": "2026-09-13",
+  "changed_runtime_or_web_files": 8,
+  "documentation_files": 2,
+  "files": [
+    {
+      "path": "README_V119_DELTA.md",
+      "bytes": 1283,
+      "sha256": "3fa4925056ced75ec1c2965f50dff292beb314d900c3d9beb4f97ca11710f4f2"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1964,
+      "sha256": "76dd50780042cec57f68964aed3c341cf88970cb6ad99f644bf0f6f2feb98f06"
+    },
+    {
+      "path": "web/js/encyclopedia-v119.js",
+      "bytes": 46623,
+      "sha256": "070f08314a7e1c1c6ffbf3a3898275083ca82e88e885fe51d9c7542b13037560"
+    },
+    {
+      "path": "data/runtime-v106/nintendoHierarchy.jgz",
+      "bytes": 36264,
+      "sha256": "120f21bee53694abba79e35642479b76f60be6015c2d7ed775a793ddcfbb2fde"
+    },
+    {
+      "path": "data/runtime-v106/nintendoScope.jgz",
+      "bytes": 2881,
+      "sha256": "995b6c6e82e34af70279c26bb4a6b5dff515815c26a6197dfa14f81fc3934969"
+    },
+    {
+      "path": "data/runtime-v106/nintendoSpecial.jgz",
+      "bytes": 3257,
+      "sha256": "a026096dd5e32285b4de230d4eb981b2a11c10a16a6a22175eab509f47f60ea3"
+    },
+    {
+      "path": "data/runtime-v106/nintendoStageGuide.jgz",
+      "bytes": 11624,
+      "sha256": "1dad69178c18c963f5407fa4f7c470ce41a923c78ba896d5b05ab46582bd61b2"
+    },
+    {
+      "path": "data/runtime-v106/platforms.jgz",
+      "bytes": 729,
+      "sha256": "89616b74359f9b5ca552dd056417f732855cb785d078f87bfd99bf339fc377a8"
+    },
+    {
+      "path": "data/runtime-v106/manifest.json",
+      "bytes": 20333,
+      "sha256": "0f0806a199084e2ae4a56163c951fda12cb49ef823f5742fd9d7e6f333d83fdd"
+    }
+  ],
+  "verification": {
+    "listed_stage_rows": 315,
+    "playable_total_including_derived_ex": 316,
+    "story": 144,
+    "legend": 112,
+    "special_direct_or_condition": 59,
+    "special_derived_ex_unlisted": 1,
+    "mobile_canonical_resources_unchanged": true,
+    "unknown_switch_values": "LEFT_BLANK",
+    "recommendations": "SWITCH_GUIDE_DIRECT_OR_VERIFIED_COUNTER_ONLY"
+  }
+}
