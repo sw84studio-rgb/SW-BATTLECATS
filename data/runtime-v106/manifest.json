@@ -1,6 +1,6 @@
 {
   "base_runtime": "runtime-v106",
-  "base_version": "V121",
+  "base_version": "V118",
   "files": {
     "backgroundEffectInstallPackEvidence": {
       "compressed_bytes": 648,
@@ -211,12 +211,12 @@
       "sha256": "a026096dd5e32285b4de230d4eb981b2a11c10a16a6a22175eab509f47f60ea3"
     },
     "nintendoStageGuide": {
-      "compressed_bytes": 13959,
+      "compressed_bytes": 15374,
       "compression": "gzip",
       "file": "nintendoStageGuide.jgz",
-      "json_sha256": "8d58412ee91439dc98e20da19f0c841970ad126abc6a00f81e96cfd600750210",
-      "raw_bytes": 292652,
-      "sha256": "a79fb589bc56441d501c0866f2e218ee148f75658ca0ea55ad3c28bacca9da3c"
+      "json_sha256": "4b69dcd6188979baa96c58da8fe02155f20d964b4787f5ef257dc54fc44841c8",
+      "raw_bytes": 273635,
+      "sha256": "299f396ae09a561b28635b32799876ccdc6c49dfbc480ca4088c8ca7ae8f2bc3"
     },
     "nyancomboEvidence": {
       "compressed_bytes": 10657,
@@ -547,7 +547,10 @@
       "sha256": "8d2be93bd2bb6cfed9cfcb525aa7e9145a8ae630b4fae4d4d410046b33a67072"
     }
   },
-  "release": "V122 Nintendo stage detail enrichment",
+  "release": {
+    "note": "Nintendo 한국어판 스테이지 상세 데이터 보강: 세계편 통솔력, 스토리·레전드 진행 조건, 미래·우주편 한국판 차이, 우주편 후반 적 구성/보상/공략, 각성의 고양이 무트 조건·권장 캐릭터. 모바일 및 출현 적 이미지 UI는 변경하지 않음.",
+    "version": "V122"
+  },
   "schema": "sw_battlecats_runtime_manifest_v084",
   "totals": {
     "local_runtime_files": 1,
