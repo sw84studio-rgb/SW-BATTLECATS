@@ -1,0 +1,35 @@
+{
+  "version": "V122",
+  "base": "GitHub latest V120 source + V121 DELTA",
+  "date": "2026-09-13",
+  "changed_runtime_or_web_files": 2,
+  "documentation_files": 1,
+  "files": [
+    {
+      "path": "data/runtime-v106/nintendoStageGuide.jgz",
+      "bytes": 14071,
+      "sha256": "8dbb1707b828f50c1bab7faf92e81f287c173688da03f7c9430c427d1e06d575"
+    },
+    {
+      "path": "data/runtime-v106/manifest.json",
+      "bytes": 24405,
+      "sha256": "b1cc882b7dd66c7d1006b7664364f52e13c1f38dda63898c6d81bd9eb6b6f0cc"
+    },
+    {
+      "path": "README_V122_DELTA.md",
+      "bytes": 1114,
+      "sha256": "49dcd8a3c40817597bb30b637a5e31023e44df02da16d3f234bc7c0e6cdefdbb"
+    }
+  ],
+  "verification": {
+    "gzip_json_parse": "PASS",
+    "nintendo_listed_stage_rows": 315,
+    "nintendo_enemy_ref_bindings_unchanged": 333,
+    "nintendo_recommended_cat_bindings_unchanged": 26,
+    "detail_rows_with_any_detail_field": 198,
+    "mobile_data_changed": false,
+    "enemy_image_ui_changed": false,
+    "search_whitespace_change_included": false,
+    "browser_render": "NOT_VERIFIED"
+  }
+}

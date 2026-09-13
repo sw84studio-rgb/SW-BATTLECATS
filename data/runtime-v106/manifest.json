@@ -1,6 +1,6 @@
 {
   "base_runtime": "runtime-v106",
-  "base_version": "V118",
+  "base_version": "V121",
   "files": {
     "backgroundEffectInstallPackEvidence": {
       "compressed_bytes": 648,
@@ -547,10 +547,7 @@
       "sha256": "8d2be93bd2bb6cfed9cfcb525aa7e9145a8ae630b4fae4d4d410046b33a67072"
     }
   },
-  "release": {
-    "note": "스테이지 출현 적은 직접 enemy ID로 원본 이미지를 연결하고, Nintendo 권장 캐릭터도 원본 이미지 카드로 표시. 확인되지 않은 Nintendo 값은 비워 둠.",
-    "version": "V121"
-  },
+  "release": "V122 Nintendo stage detail enrichment",
   "schema": "sw_battlecats_runtime_manifest_v084",
   "totals": {
     "local_runtime_files": 1,
@@ -580,5 +577,5 @@
     "v095_old_special_combo_rows_replaced": 386,
     "v095_verified_active_named_combos": 255
   },
-  "version": "V121"
+  "version": "V122"
 }
