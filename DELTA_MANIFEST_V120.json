@@ -1,0 +1,41 @@
+{
+  "version": "V120",
+  "base": "V119",
+  "date": "2026-09-13",
+  "changed_runtime_or_web_files": 3,
+  "documentation_files": 1,
+  "files": [
+    {
+      "path": "README_V120_DELTA.md",
+      "bytes": 1323,
+      "sha256": "e118467261ba8da26d61051c06e36a962165e62457e707b79f2577b2587ae61a"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1964,
+      "sha256": "a6812a321fecfc4aca858e1f8c44881f600d46d00709930086c997c456e93387"
+    },
+    {
+      "path": "web/js/encyclopedia-v120.js",
+      "bytes": 48454,
+      "sha256": "1b1857fb98c4e969730a547550717d315b462ed3d965592dedaa4c3ac597f7d4"
+    },
+    {
+      "path": "data/runtime-v106/manifest.json",
+      "bytes": 24536,
+      "sha256": "9686e2bde288c98cbe63af784fc81cd08e6b5a1886a4cfedc850b23020446244"
+    }
+  ],
+  "verification": {
+    "js_syntax": "PASS",
+    "mobile_stage_unique_enemy_refs": 559,
+    "mobile_enemy_images_resolved": 559,
+    "mobile_enemy_image_missing": 0,
+    "nintendo_verified_enemy_names": 57,
+    "nintendo_enemy_images_resolved": 57,
+    "nintendo_enemy_image_missing": 0,
+    "battle_data_changed": false,
+    "enemy_catalog_data_changed": false,
+    "ui_scope": "STAGE_ENEMY_VISUAL_RENDER_ONLY"
+  }
+}
