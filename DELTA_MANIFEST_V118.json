@@ -1,0 +1,59 @@
+{
+  "version": "V118",
+  "base": "V117",
+  "date": "2026-09-13",
+  "changed_runtime_files": 8,
+  "files": [
+    {
+      "path": "README_V118_DELTA.md",
+      "bytes": 1210,
+      "sha256": "c2f68aa634183d00b96f93e07998b71e3b751594acf55dd7a3f98ebdf2e104ed"
+    },
+    {
+      "path": "data/runtime-v106/cats.jgz",
+      "bytes": 743920,
+      "sha256": "b1ad48b95e1bfe6f123cfdcb6988c64a61a8ab19014ef5c7ca1be4ea5260cacd"
+    },
+    {
+      "path": "data/runtime-v106/enemies.jgz",
+      "bytes": 197453,
+      "sha256": "29a7eb5af4871a75b3c68c290360676dbdc361a3e98b44ff435cf82b55181486"
+    },
+    {
+      "path": "data/runtime-v106/index.jgz",
+      "bytes": 243324,
+      "sha256": "5a910a0580f6312ea89d4362808adbc5d76d94daaebb0918fc85ac789f09798e"
+    },
+    {
+      "path": "data/runtime-v106/manifest.json",
+      "bytes": 20073,
+      "sha256": "b66dc74b36d73275df7f662bf19b239de4e2c1baf9d37f9bc6bdbdc3623e5d4c"
+    },
+    {
+      "path": "data/runtime-v106/nintendoHierarchy.jgz",
+      "bytes": 35634,
+      "sha256": "82f186afe3ed7f5e6e5b36c2e544d70bcf96f6337c8237e762537f12e325c77e"
+    },
+    {
+      "path": "data/runtime-v106/nintendoScope.jgz",
+      "bytes": 2750,
+      "sha256": "9c39805a670b5b037c2d4aac6b5550cf37f65e8d5aa332018a89721f9f40ed3d"
+    },
+    {
+      "path": "data/runtime-v106/nintendoSpecial.jgz",
+      "bytes": 2896,
+      "sha256": "ed21e6023a9df96fb050cba85dcb2cb42977d3d31f7ebac5472b91a2379d1774"
+    },
+    {
+      "path": "data/runtime-v106/platforms.jgz",
+      "bytes": 747,
+      "sha256": "af26b9b80b484525943bb6d1c4750bcb753aa1e0dbd573ab4ca80c48c524b8e5"
+    }
+  ],
+  "verification": {
+    "nintendo_stage_count": 317,
+    "nintendo_enemy_count": 83,
+    "nintendo_special_stage_count": 61,
+    "nintendo_cat_render_status": "PARTIAL_NATIVE_MAPPING_PENDING"
+  }
+}
