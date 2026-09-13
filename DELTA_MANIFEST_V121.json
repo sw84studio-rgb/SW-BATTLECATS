@@ -1,0 +1,52 @@
+{
+  "version": "V121",
+  "base": "GitHub uploaded V120 source",
+  "date": "2026-09-13",
+  "changed_runtime_or_web_files": 4,
+  "documentation_files": 1,
+  "files": [
+    {
+      "path": "README_V121_DELTA.md",
+      "bytes": 1717,
+      "sha256": "4e5f1fac253cdb62f541eba7b1f8c87585082da34fd7c003ec4ee7445ffb4232"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1964,
+      "sha256": "391394ead7e31f8db28e21ce75f74409b0a9b84db1e85751b068397548787e96"
+    },
+    {
+      "path": "web/js/encyclopedia-v121.js",
+      "bytes": 49163,
+      "sha256": "cd7344c2085b7285f46db868c304a1297f74da7d569c479945dde1de8c08ff05"
+    },
+    {
+      "path": "data/runtime-v106/nintendoStageGuide.jgz",
+      "bytes": 13959,
+      "sha256": "a79fb589bc56441d501c0866f2e218ee148f75658ca0ea55ad3c28bacca9da3c"
+    },
+    {
+      "path": "data/runtime-v106/manifest.json",
+      "bytes": 24601,
+      "sha256": "fb11dda703d3f97c10557d6b31e997df1bb4d638bd39cbb4a2d49beb208f0853"
+    }
+  ],
+  "verification": {
+    "js_syntax": "PASS",
+    "nintendo_listed_stage_rows": 315,
+    "nintendo_playable_including_derived_ex": 316,
+    "nintendo_enemy_ref_bindings": 333,
+    "nintendo_enemy_ref_stages": 100,
+    "nintendo_unique_enemy_refs": 57,
+    "nintendo_enemy_image_missing": 0,
+    "nintendo_recommended_cat_bindings": 26,
+    "nintendo_unique_recommended_cats": 18,
+    "nintendo_recommended_cat_image_missing": 0,
+    "nintendo_recommended_cat_scope_missing": 0,
+    "mobile_unique_enemy_refs": 557,
+    "mobile_enemy_image_missing": 0,
+    "mobile_data_changed": false,
+    "existing_nintendo_guide_values_changed": false,
+    "browser_render": "NOT_VERIFIED_LOCAL_URL_BLOCKED_BY_ENV_POLICY"
+  }
+}

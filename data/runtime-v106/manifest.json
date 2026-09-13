@@ -1,22 +1,134 @@
 {
-  "schema": "sw_battlecats_runtime_manifest_v084",
-  "version": "V120",
+  "base_runtime": "runtime-v106",
+  "base_version": "V118",
   "files": {
-    "cats": {
-      "file": "cats.jgz",
+    "backgroundEffectInstallPackEvidence": {
+      "compressed_bytes": 648,
       "compression": "gzip",
+      "file": "backgroundEffectInstallPackEvidence.jgz",
+      "json_sha256": "abac3d52fa73c5bddeaecacb51dc14ff87ea16980620e7ad5e7ef1a9464493a7",
+      "raw_bytes": 1799,
+      "sha256": "6559cd49401f9349c2ce075f33218824ece508cf2c1c560ae19c62a9c17168cd"
+    },
+    "backgroundFilenameResolutionEvidence": {
+      "compressed_bytes": 1751,
+      "compression": "gzip",
+      "file": "backgroundFilenameResolutionEvidence.jgz",
+      "json_sha256": "160ef6cb28dc0b9977d656068a24dbac91fac0492e5e2a0ca699e4fc9550aec1",
+      "raw_bytes": 6638,
+      "sha256": "f03afbe15559497142b6dd093006280966af2588d726582a45e4cfb24eef0163"
+    },
+    "backgroundImageIdReuseEvidence": {
+      "compressed_bytes": 1274,
+      "compression": "gzip",
+      "file": "backgroundImageIdReuseEvidence.jgz",
+      "json_sha256": "3a6c872350a4fa53b93b220c112e5f51abd14b2cbb9558ed0e70d6cb159985af",
+      "raw_bytes": 3467,
+      "sha256": "522aa6127a9ee3a17a96422176732294feda2996eb4132a8c91fb83b650d2241"
+    },
+    "backgroundProvenance": {
+      "compressed_bytes": 3923,
+      "compression": "gzip",
+      "file": "backgroundProvenance.jgz",
+      "json_sha256": "f07a996fd3742189824c704ceb03ba127b114b5dfdd9c5439d8587521974c4bb",
+      "raw_bytes": 118741,
+      "sha256": "b90d08cd8c1f42ba8fff52f7232067e1763dfd024c06526695b115e4647bd02b"
+    },
+    "backgroundPublicCandidates": {
+      "compressed_bytes": 2539,
+      "compression": "gzip",
+      "file": "backgroundPublicCandidates.jgz",
+      "json_sha256": "09211ec4541048ef625dbbba6e4a9f17439c920f1640327447bc92079982927e",
+      "raw_bytes": 50162,
+      "sha256": "a879437a801b62dd69eeaa077ff46ca6e1eb2bfb026ea10b9e013c8371a002cf"
+    },
+    "bckrRawSourceAudit": {
+      "compressed_bytes": 3510,
+      "compression": "gzip",
+      "file": "bckrRawSourceAudit.jgz",
+      "json_sha256": "6b46689ecc6dff52301a265bd6cde3bdb08fa85db52194a2b7c739773d0577a2",
+      "raw_bytes": 47856,
+      "sha256": "32a54a4a8b6fc39b710f430fc3317fad43e2320e6a81eecb798d0db4c95d462a"
+    },
+    "catDetailImages": {
+      "compressed_bytes": 2486,
+      "compression": "gzip",
+      "file": "catDetailImages.jgz",
+      "json_sha256": "339c8c952a594bd7ca141a485a2aae5a6b264911ef3e02d306522ae55c0c1316",
+      "raw_bytes": 36590,
+      "sha256": "af98303d315c0f6732697770f0ca1e0e71dcb3c9e1c7cdbdabd17a9510e4ab85"
+    },
+    "cats": {
       "compressed_bytes": 743920,
+      "compression": "gzip",
+      "file": "cats.jgz",
+      "json_sha256": "622654fa08dfa42955db5b56cd593407d71e39957e6691398f3d818540fc4dc6",
       "raw_bytes": 10921530,
-      "sha256": "b1ad48b95e1bfe6f123cfdcb6988c64a61a8ab19014ef5c7ca1be4ea5260cacd",
-      "json_sha256": "622654fa08dfa42955db5b56cd593407d71e39957e6691398f3d818540fc4dc6"
+      "sha256": "b1ad48b95e1bfe6f123cfdcb6988c64a61a8ab19014ef5c7ca1be4ea5260cacd"
     },
     "enemies": {
-      "file": "enemies.jgz",
-      "compression": "gzip",
       "compressed_bytes": 197453,
+      "compression": "gzip",
+      "file": "enemies.jgz",
+      "json_sha256": "da9d1350591d9b1418b0e4359835737337c475635cb7da7d1b7232cea6874065",
       "raw_bytes": 1756953,
-      "sha256": "29a7eb5af4871a75b3c68c290360676dbdc361a3e98b44ff435cf82b55181486",
-      "json_sha256": "da9d1350591d9b1418b0e4359835737337c475635cb7da7d1b7232cea6874065"
+      "sha256": "29a7eb5af4871a75b3c68c290360676dbdc361a3e98b44ff435cf82b55181486"
+    },
+    "enemyAbilitySemanticEvidence": {
+      "compressed_bytes": 10934,
+      "compression": "gzip",
+      "file": "enemyAbilitySemanticEvidence.jgz",
+      "json_sha256": "2bcfd10fec4950b1b4bfee0a373bafc20e487dd4ff032e409acadc722ed1ca65",
+      "raw_bytes": 271589,
+      "sha256": "4bfb35264505dfdacad19e2ca3ba0e513386ac2bbb6481ae6fa949194883c819"
+    },
+    "enemyBaseDirectMappingEvidence": {
+      "compressed_bytes": 872,
+      "compression": "gzip",
+      "file": "enemyBaseDirectMappingEvidence.jgz",
+      "json_sha256": "75dd2c2e290e46b862fd61482d5b0be615f7a0a148f574c2f6d8d9804379d03c",
+      "raw_bytes": 1702,
+      "sha256": "b68a692c1f0e868090ca0d6473b00552fb317f41eeef8ebeb0eacd9f4109aee1"
+    },
+    "enemyBaseProvenance": {
+      "compressed_bytes": 18065,
+      "compression": "gzip",
+      "file": "enemyBaseProvenance.jgz",
+      "json_sha256": "f25995c843ec36d97cfff3dcdc6e99ee3e5bfe98bfc08125b065349d2ff191b4",
+      "raw_bytes": 165132,
+      "sha256": "d13a59238626e35e3fb42fda7abf8cd7a7b123e300ede7523f169965b46c6b63"
+    },
+    "enemyBaseRegistry": {
+      "compressed_bytes": 10929,
+      "compression": "gzip",
+      "file": "enemyBaseRegistry.jgz",
+      "json_sha256": "215e388a25dbbc3aa59378680090e5078b3c5b29cb7e5c8c4ace049ee87f24f7",
+      "raw_bytes": 75313,
+      "sha256": "048912e39804c0e4f4720704197dfe52ab31368c1f96b0ce509baf96c059d784"
+    },
+    "enemyBaseRowIndexEvidence": {
+      "compressed_bytes": 1529,
+      "compression": "gzip",
+      "file": "enemyBaseRowIndexEvidence.jgz",
+      "json_sha256": "40cddee8934d39e73a0ca98ec91dd453c9ef5b7d55b1738b8745c2975e691bcc",
+      "raw_bytes": 5624,
+      "sha256": "51fa58711c27157049a61676b12f5c98359c85984f1df7588b37ce06076c7784"
+    },
+    "enemyCastleFilenameEvidence": {
+      "compressed_bytes": 1179,
+      "compression": "gzip",
+      "file": "enemyCastleFilenameEvidence.jgz",
+      "json_sha256": "52511cf0e1171a2dc6fcbf8a160bc835c5bb44881a64301726751b03183f02ff",
+      "raw_bytes": 9120,
+      "sha256": "6fc1edff6c81bd580743f9ebf03fa860d287e697301189604c20f6a7485a5590"
+    },
+    "enemyCombatDetailEvidence": {
+      "compressed_bytes": 535,
+      "compression": "gzip",
+      "file": "enemyCombatDetailEvidence.jgz",
+      "json_sha256": "73361468304992d6ffbd659c8e58b239806902b3343545919d3e4520270a80c4",
+      "raw_bytes": 1273,
+      "sha256": "da9a560fd710821fc7c7da74ccdf84cc1fef7ea387d9a23fc2de9e6bf7aeb83b"
     },
     "enemyImageMap": {
       "compressed_bytes": 374,
@@ -27,28 +139,100 @@
       "sha256": "5f14063f4792f2dd00f0adbf00ef4c81f0c1cd2b26b56052eae7550450e52380"
     },
     "hierarchy": {
-      "file": "hierarchy.jgz",
-      "compression": "gzip",
       "compressed_bytes": 390024,
+      "compression": "gzip",
+      "file": "hierarchy.jgz",
+      "json_sha256": "d34fa0835906be385b3e3253b7bd72b6eae0cede48faca2d1731abdf9d14e825",
       "raw_bytes": 5582730,
-      "sha256": "4a76fe5655415261fbfe6c6b2ccf7c55a0a0406d2ff8506a932b411f115ceb81",
-      "json_sha256": "d34fa0835906be385b3e3253b7bd72b6eae0cede48faca2d1731abdf9d14e825"
+      "sha256": "4a76fe5655415261fbfe6c6b2ccf7c55a0a0406d2ff8506a932b411f115ceb81"
     },
     "index": {
-      "file": "index.jgz",
-      "compression": "gzip",
       "compressed_bytes": 243324,
+      "compression": "gzip",
+      "file": "index.jgz",
+      "json_sha256": "81497ae4661360dbde692819ca96dfffa885a7ff6c5423bcdff1659f22a329c4",
       "raw_bytes": 1787209,
-      "sha256": "5a910a0580f6312ea89d4362808adbc5d76d94daaebb0918fc85ac789f09798e",
-      "json_sha256": "81497ae4661360dbde692819ca96dfffa885a7ff6c5423bcdff1659f22a329c4"
+      "sha256": "5a910a0580f6312ea89d4362808adbc5d76d94daaebb0918fc85ac789f09798e"
+    },
+    "installPackAcquisitionIdentity": {
+      "compressed_bytes": 1310,
+      "compression": "gzip",
+      "file": "installPackAcquisitionIdentity.jgz",
+      "json_sha256": "c625842ddaf8faad6d2bd6bfaae06d0d51d232cf3d7640f5b314cede6be106c4",
+      "raw_bytes": 3646,
+      "sha256": "fb43561d3e7b055e3ce7c08fe4f19bb6bb7ce7ce84de31bc360da1883d23e606"
+    },
+    "installPackLocalVisualEvidence": {
+      "compressed_bytes": 4098,
+      "compression": "gzip",
+      "file": "installPackLocalVisualEvidence.jgz",
+      "json_sha256": "ee4b3bbe3ad503aec39a35f512d3c5d00124a081aea0b882a5f6df3bf5fb158e",
+      "raw_bytes": 18817,
+      "sha256": "45d086c3ada53b4442845317e1f633d93c11d3fdb7b1579e06ecc09e67066973"
+    },
+    "mainStoryEnemyBaseLayout": {
+      "compressed_bytes": 3717,
+      "compression": "gzip",
+      "file": "mainStoryEnemyBaseLayout.jgz",
+      "json_sha256": "ae1d14ab873c37b002dcdcef2a84463b9849c1eb1bfb4aa52976226786d3aee9",
+      "raw_bytes": 28540,
+      "sha256": "34400dbf38f3029d722de6ade953728dd114db6bc105776904bb95d0275cb827"
+    },
+    "materialAcquisitionEvidence": {
+      "compressed_bytes": 16737,
+      "compression": "gzip",
+      "file": "materialAcquisitionEvidence.jgz",
+      "json_sha256": "f2b75531b4dcbf45a8e6858253b6b049e6a196993dead02847b8e7e7f796745f",
+      "raw_bytes": 403259,
+      "sha256": "131505c3fddf5242506b9a1a370ead41822a9b1abdf1de6776fad78806c80abc"
+    },
+    "nintendoHierarchy": {
+      "compressed_bytes": 36264,
+      "compression": "gzip",
+      "file": "nintendoHierarchy.jgz",
+      "json_sha256": "fb4580ca6ffd810a1a0f8de547216e42c925e213e131b32bf3864fe9d0f9fb6b",
+      "raw_bytes": 481783,
+      "sha256": "120f21bee53694abba79e35642479b76f60be6015c2d7ed775a793ddcfbb2fde"
+    },
+    "nintendoScope": {
+      "compressed_bytes": 2881,
+      "compression": "gzip",
+      "file": "nintendoScope.jgz",
+      "json_sha256": "44d82d3be3ae0be16e73fc5d6c1b0cf061da1ea212f832d15c3151ff6cb0ff57",
+      "raw_bytes": 12239,
+      "sha256": "995b6c6e82e34af70279c26bb4a6b5dff515815c26a6197dfa14f81fc3934969"
+    },
+    "nintendoSpecial": {
+      "compressed_bytes": 3257,
+      "compression": "gzip",
+      "file": "nintendoSpecial.jgz",
+      "json_sha256": "7e54fc0332f655e02a314b10d644f6fa213d68b7c1151504c030e414bd30c62d",
+      "raw_bytes": 20392,
+      "sha256": "a026096dd5e32285b4de230d4eb981b2a11c10a16a6a22175eab509f47f60ea3"
+    },
+    "nintendoStageGuide": {
+      "compressed_bytes": 13959,
+      "compression": "gzip",
+      "file": "nintendoStageGuide.jgz",
+      "json_sha256": "8d58412ee91439dc98e20da19f0c841970ad126abc6a00f81e96cfd600750210",
+      "raw_bytes": 292652,
+      "sha256": "a79fb589bc56441d501c0866f2e218ee148f75658ca0ea55ad3c28bacca9da3c"
+    },
+    "nyancomboEvidence": {
+      "compressed_bytes": 10657,
+      "compression": "gzip",
+      "file": "nyancomboEvidence.jgz",
+      "json_sha256": "53a4f02378c9f077393126888f707ad9961839b0160932db72dcff1478dfa0a9",
+      "raw_bytes": 99130,
+      "sha256": "9d72169086d73dadf4f26c74f5074899b531c202ee18ad6c683e9a5519530423"
     },
     "platforms": {
-      "file": "platforms.jgz",
-      "compression": "gzip",
       "compressed_bytes": 729,
+      "compression": "gzip",
+      "file": "platforms.jgz",
+      "json_sha256": "08fb6f0a2424b9823bd31b2e4d36340b00a9f05b6e5171a7d234118a9b0ad9f6",
       "raw_bytes": 1169,
-      "sha256": "89616b74359f9b5ca552dd056417f732855cb785d078f87bfd99bf339fc377a8",
-      "json_sha256": "08fb6f0a2424b9823bd31b2e4d36340b00a9f05b6e5171a7d234118a9b0ad9f6"
+      "sha256": "89616b74359f9b5ca552dd056417f732855cb785d078f87bfd99bf339fc377a8"
     },
     "progression": {
       "compressed_bytes": 584,
@@ -58,45 +242,181 @@
       "raw_bytes": 1299,
       "sha256": "b7a79d8ff0448d6e3d2856869115f268ebf0b28c18c973ef1b3231cd847830e0"
     },
-    "specialCombos": {
-      "file": "specialCombos.jgz",
+    "rankRewards": {
+      "compressed_bytes": 5098,
       "compression": "gzip",
+      "file": "rankRewards.jgz",
+      "json_sha256": "e82d2d5ad79544f26894ec76ae70882607b9e986448bd3e76a6b1d9067b3ac2e",
+      "raw_bytes": 102489,
+      "sha256": "dfbbe507f5ab2a28bac37ec6655f21074bf1bd5da9a434c36e36acff14d23f89"
+    },
+    "serverArchiveFilenameEvidence": {
+      "compressed_bytes": 1443,
+      "compression": "gzip",
+      "file": "serverArchiveFilenameEvidence.jgz",
+      "json_sha256": "bbb9d5c5b40f90e3783ae2c09405b8c80bb4c83d09514ba07d216190cbc99d72",
+      "raw_bytes": 7836,
+      "sha256": "9204d4e557106fa6e175b14dfae4f3237aabcc80fe482ebacf0085a049577215"
+    },
+    "serverAssetResolutionPlan": {
+      "compressed_bytes": 2231,
+      "compression": "gzip",
+      "file": "serverAssetResolutionPlan.jgz",
+      "json_sha256": "bfbc43898de919cd0f7b56d9b8052c43d525c936a43bed7744556b2b5ac6c843",
+      "raw_bytes": 5639,
+      "sha256": "0f0583f957683488f7d1929e85ae6f3187ca74268d9eb8c7b0a6d0e0bcc6c6d2"
+    },
+    "specialCombos": {
       "compressed_bytes": 14916,
+      "compression": "gzip",
+      "file": "specialCombos.jgz",
+      "json_sha256": "f05bc582f540bcc1ae3a277c3ca72e9281fc600ae58f6f44523e720d432514eb",
       "raw_bytes": 132783,
-      "sha256": "b79ea3163475882328a36452a72f3a688242863b10322a0d48a94e25fbaa798c",
-      "json_sha256": "f05bc582f540bcc1ae3a277c3ca72e9281fc600ae58f6f44523e720d432514eb"
+      "sha256": "b79ea3163475882328a36452a72f3a688242863b10322a0d48a94e25fbaa798c"
     },
     "specialGacha": {
-      "file": "specialGacha.jgz",
-      "compression": "gzip",
       "compressed_bytes": 4593,
+      "compression": "gzip",
+      "file": "specialGacha.jgz",
+      "json_sha256": "7b893dad858340aec4ad328a506df23b5a225eed90a01cda76bbcdffddc090f0",
       "raw_bytes": 64495,
-      "sha256": "937ea960602d8803e4bd85aa23e011e2ba3515025a980418566af8e9cac12b3e",
-      "json_sha256": "7b893dad858340aec4ad328a506df23b5a225eed90a01cda76bbcdffddc090f0"
+      "sha256": "937ea960602d8803e4bd85aa23e011e2ba3515025a980418566af8e9cac12b3e"
+    },
+    "specialItemAliasEvidence": {
+      "compressed_bytes": 1362,
+      "compression": "gzip",
+      "file": "specialItemAliasEvidence.jgz",
+      "json_sha256": "35d150a047e420762a3c94a1b1c3861f184c943b94f935cf679c29a65a0542b4",
+      "raw_bytes": 2839,
+      "sha256": "1239f314f2c05ee4167540d114422e43aeccaac520ca28d4e98ba369104257c8"
+    },
+    "specialItemVisualEvidence": {
+      "compressed_bytes": 1407,
+      "compression": "gzip",
+      "file": "specialItemVisualEvidence.jgz",
+      "json_sha256": "ef079cb8e63748d383d16d6b2bf51ed0558b1094e589448c45471136bd228096",
+      "raw_bytes": 5450,
+      "sha256": "de29b2ddac82cfb7d4f0285bd3473c1f7687b5391480726a7ca2beca3478bd16"
     },
     "specialItems": {
-      "file": "specialItems.jgz",
-      "compression": "gzip",
       "compressed_bytes": 22758,
+      "compression": "gzip",
+      "file": "specialItems.jgz",
+      "json_sha256": "f2b169e60ff6e9e7ba057d5ad0e252889db5f0c74f45060581d6b8cfd578b25b",
       "raw_bytes": 199144,
-      "sha256": "fdeed4fff3f581b3e0231d98df5a6ca6048a152230a3922489e8e8b9671b32d2",
-      "json_sha256": "f2b169e60ff6e9e7ba057d5ad0e252889db5f0c74f45060581d6b8cfd578b25b"
+      "sha256": "fdeed4fff3f581b3e0231d98df5a6ca6048a152230a3922489e8e8b9671b32d2"
     },
     "specialMeta": {
-      "file": "specialMeta.jgz",
-      "compression": "gzip",
       "compressed_bytes": 962,
+      "compression": "gzip",
+      "file": "specialMeta.jgz",
+      "json_sha256": "ceca13a947cc01b2f39905844a103f93e843e4cd36ef9b04b8c53a615a2ce216",
       "raw_bytes": 1639,
-      "sha256": "39c274fc3fb492c4ab9d5fdab79d568497b612ac2219900a684d8741c6f62ac9",
-      "json_sha256": "ceca13a947cc01b2f39905844a103f93e843e4cd36ef9b04b8c53a615a2ce216"
+      "sha256": "39c274fc3fb492c4ab9d5fdab79d568497b612ac2219900a684d8741c6f62ac9"
+    },
+    "stageAssetAcquisition": {
+      "compressed_bytes": 54206,
+      "compression": "gzip",
+      "file": "stageAssetAcquisition.jgz",
+      "json_sha256": "d73d79f656b0e04eb9cf82b91563d52b2287719a35e93aa6de3dac464ff95fd3",
+      "raw_bytes": 398863,
+      "sha256": "8498352bf654fc53fd0e26a4c1f9055e15c995eee2c109bcad4541f1831cbeef"
+    },
+    "stageBackgroundEffects": {
+      "compressed_bytes": 12686,
+      "compression": "gzip",
+      "file": "stageBackgroundEffects.jgz",
+      "json_sha256": "cad65d2b48a18f0d54fe2a6c1da943be71939e9021c807e679babd6c88eaee64",
+      "raw_bytes": 224909,
+      "sha256": "dc5544f0a30ed35187c6d0e2f8e05037308f8f0cd9609a331b3544cb8f6165a0"
+    },
+    "stageBattleRuleEvidence": {
+      "compressed_bytes": 1981,
+      "compression": "gzip",
+      "file": "stageBattleRuleEvidence.jgz",
+      "json_sha256": "88df09e46937d22c7bc9a1c0586c4f57220ab779c2d4a4368bd5acf421ee8b81",
+      "raw_bytes": 18087,
+      "sha256": "eb186e95de193d42cb1fe8f1d05bbec2010ab93d582272e187f8e115ea6e28e0"
+    },
+    "stageBinaryAcquisitionPlan": {
+      "compressed_bytes": 4067,
+      "compression": "gzip",
+      "file": "stageBinaryAcquisitionPlan.jgz",
+      "json_sha256": "caa741c5ca56fe69418de0ce34bfbb7c102ac613f4bf3b6705f2c138dc6996b5",
+      "raw_bytes": 31147,
+      "sha256": "d17b264465359b35235396248012e0358b4e67a0a9a32a686a4ca9ccffd9c59c"
+    },
+    "stageNavigationEvidence": {
+      "compressed_bytes": 178844,
+      "compression": "gzip",
+      "file": "stageNavigationEvidence.jgz",
+      "json_sha256": "fa1974ea60942c48f3234b098ffa21399b3dc56da5152a4de3d8270523cbf880",
+      "raw_bytes": 2566642,
+      "sha256": "8148c9954c29176a6015b9b07f4256e0187255c3864cfbb06e654720b6370018"
+    },
+    "stageRewardEvidence": {
+      "compressed_bytes": 1422,
+      "compression": "gzip",
+      "file": "stageRewardEvidence.jgz",
+      "json_sha256": "e44ddd9a48fa22d3416b16cb63b9c5223c71d4bbda4c2518816c2d89f2257cb7",
+      "raw_bytes": 3016,
+      "sha256": "337d8709623b249b84e08e25f3b83fb3c32b326f08393234d223384a5353af1e"
+    },
+    "stageSpawnTimingEvidence": {
+      "compressed_bytes": 2136,
+      "compression": "gzip",
+      "file": "stageSpawnTimingEvidence.jgz",
+      "json_sha256": "06d48987aa46ba95627e045896ad73752a407b43d59fe693eb2206836d0f6bff",
+      "raw_bytes": 8390,
+      "sha256": "4164d9c0fa9a4cb6fd068242163ab5b0b859a57010f12679effb0062fd5a0e27"
+    },
+    "stageStarMultiplierEvidence": {
+      "compressed_bytes": 5408,
+      "compression": "gzip",
+      "file": "stageStarMultiplierEvidence.jgz",
+      "json_sha256": "0fd90eb0c3335e3af7d96eb4e82f9db7994af5816373969b2296aca79b7fd07d",
+      "raw_bytes": 28239,
+      "sha256": "ba9ba1e6380367627fe9350adc8cde50c135299c4657f742e069af8a910a372b"
+    },
+    "stageThreatDetailEvidence": {
+      "compressed_bytes": 268068,
+      "compression": "gzip",
+      "file": "stageThreatDetailEvidence.jgz",
+      "json_sha256": "dcd49d1eab855ae2473847fd600d6ca26e56efd6dee7e565174214812b67f971",
+      "raw_bytes": 9424055,
+      "sha256": "ee4aab66e457d5339d52520dd5554ddd3a9795fa9a1eefb39cc0d4ebf3e5e31e"
+    },
+    "stageVisualAssets": {
+      "compressed_bytes": 28635,
+      "compression": "gzip",
+      "file": "stageVisualAssets.jgz",
+      "json_sha256": "e5fcbae840bded4eb375d0757382fb6271db6d9e4ac92d56b7c384349f276111",
+      "raw_bytes": 2362933,
+      "sha256": "d8e4f8c9189a136f13d1a9a8c65b9c3e214e90bd0616042404f5a9aa63bad019"
+    },
+    "stageVisualIndex": {
+      "compressed_bytes": 351576,
+      "compression": "gzip",
+      "file": "stageVisualIndex.jgz",
+      "json_sha256": "e4f8d515873bc24f19c28a52aed2a91fce09b4657b0e8413a98e14fae4c5c72f",
+      "raw_bytes": 4598725,
+      "sha256": "f51bea560f4d9eb0de1c95e05e013705511185feb52fe2774c3d1d4d59c15e88"
     },
     "stages": {
-      "file": "stages.jgz",
-      "compression": "gzip",
       "compressed_bytes": 1201647,
+      "compression": "gzip",
+      "file": "stages.jgz",
+      "json_sha256": "40aefaa1b5eedbe13297b7bbe030581f191315d6ccf6417618e5343d76bb3ed3",
       "raw_bytes": 20286786,
-      "sha256": "ca6688a675628c2750da1ef57e907386649f650f6c5395e74d4c4901276a8d90",
-      "json_sha256": "40aefaa1b5eedbe13297b7bbe030581f191315d6ccf6417618e5343d76bb3ed3"
+      "sha256": "ca6688a675628c2750da1ef57e907386649f650f6c5395e74d4c4901276a8d90"
+    },
+    "storyDeploymentRestrictionEvidence": {
+      "compressed_bytes": 3336,
+      "compression": "gzip",
+      "file": "storyDeploymentRestrictionEvidence.jgz",
+      "json_sha256": "d34a2d5093ba98362fa1343086d63aaa4a3f916e22ff80cc803bc3059b9ee943",
+      "raw_bytes": 85070,
+      "sha256": "ffb1335f5c84d2d818709303bddb183038fbe9fcc25efd896b336364a6a8fc81"
     },
     "strategy": {
       "compressed_bytes": 330749,
@@ -114,13 +434,101 @@
       "raw_bytes": 754773,
       "sha256": "4832c8385dd9c7f5b8e6b2901b90af13a3e8f354170dd1597814fa06562eaa98"
     },
-    "visualAssets": {
-      "file": "visualAssets.jgz",
+    "talentOrbSlotEvidence": {
+      "compressed_bytes": 1246,
       "compression": "gzip",
+      "file": "talentOrbSlotEvidence.jgz",
+      "json_sha256": "2117c30d77845cd5502497c54044257eedc109b6575f68d9aba5deb08ad38f48",
+      "raw_bytes": 11351,
+      "sha256": "057645197a38a39ec8fb842e3cca2adb9af37934749dc7ba24bf61f4b67d3969"
+    },
+    "unitAcquisitionGuideEvidence": {
+      "compressed_bytes": 20964,
+      "compression": "gzip",
+      "file": "unitAcquisitionGuideEvidence.jgz",
+      "json_sha256": "27598fa3fc46221fe6709261662021300680e91ad1e5035ffe2708916b111585",
+      "raw_bytes": 247288,
+      "sha256": "0ff3600ec6774d12e4ca786a8ea74a8ecd661e2365f9b165248a16626b134944"
+    },
+    "unitAttackDetailEvidence": {
+      "compressed_bytes": 843,
+      "compression": "gzip",
+      "file": "unitAttackDetailEvidence.jgz",
+      "json_sha256": "c38f5c75df2ee7d632449dd81752b56debcd5b8f060c7cad2e77f2c7c771d3ca",
+      "raw_bytes": 3730,
+      "sha256": "053c27ae52c1ec0398d18c6ab2951cecc327e0ed617077c46c1ce5d45b5c6afa"
+    },
+    "unitEvolutionEvidence": {
+      "compressed_bytes": 872,
+      "compression": "gzip",
+      "file": "unitEvolutionEvidence.jgz",
+      "json_sha256": "1b633d0ec63ebc2d7be1213175402d1c4ac8f9fb2bfde34af9d1568ee3f55abb",
+      "raw_bytes": 1510,
+      "sha256": "7ee07028c78a0ccd8d792eed2a4399cdb5e2f487ec4af851ea1394b631e2a80a"
+    },
+    "unitExchangeEvidence": {
+      "compressed_bytes": 4461,
+      "compression": "gzip",
+      "file": "unitExchangeEvidence.jgz",
+      "json_sha256": "c951cb514c0ad156e502a99b81e09a75352f3611447de6247ef20589d79c4aa7",
+      "raw_bytes": 78984,
+      "sha256": "db24d325d973b59b3f1d61a0a8374dbf1aa2be5e1d4e102e0aff0b9dfe0800fe"
+    },
+    "unitOfficialDescriptionEvidence": {
+      "compressed_bytes": 163764,
+      "compression": "gzip",
+      "file": "unitOfficialDescriptionEvidence.jgz",
+      "json_sha256": "44a04f8eee39473ad179580dfee8fca30b58b5d8e6820f93330863ccf783159f",
+      "raw_bytes": 798481,
+      "sha256": "f69c11c9464091d40511ade45484c2df6df6c5e9de9d64b70e59c24f02faf67a"
+    },
+    "unitProgressionEvidence": {
+      "compressed_bytes": 43223,
+      "compression": "gzip",
+      "file": "unitProgressionEvidence.jgz",
+      "json_sha256": "7aa0d9405ff3472ffcb4c9904a7cf8102f1761e6aa38909d74ac73f69e80c026",
+      "raw_bytes": 309782,
+      "sha256": "3d136e6e815a5c496066028c8e75681ce0ac0ca3cc840476a3542ef3cba82ddd"
+    },
+    "unitRarityEvidence": {
+      "compressed_bytes": 563,
+      "compression": "gzip",
+      "file": "unitRarityEvidence.jgz",
+      "json_sha256": "78dc5ad79969fd1d9c93440d11b759b9c50cb84aeb1b1d97291cda5470d94659",
+      "raw_bytes": 1052,
+      "sha256": "229f0f555e798e5af66268199390b68e31fa9504074ae1d6d1b40327f1f1cd4d"
+    },
+    "unitStageAcquisitionEvidence": {
+      "compressed_bytes": 14480,
+      "compression": "gzip",
+      "file": "unitStageAcquisitionEvidence.jgz",
+      "json_sha256": "bd830e89206c78a0a942426b453e07a65121429d43579514d29c651ff20ff97b",
+      "raw_bytes": 118258,
+      "sha256": "fda51135ec60753120790d5ff53b85a76dbcf4d004a4467d49577076f0525b7e"
+    },
+    "unitTalentEvidence": {
+      "compressed_bytes": 14086,
+      "compression": "gzip",
+      "file": "unitTalentEvidence.jgz",
+      "json_sha256": "023f2d098f5ccc2c6e7976df7ee4ce2befbe4895ef6521d315368897ba46685e",
+      "raw_bytes": 358842,
+      "sha256": "0378f68233cb2f2f0d9dbd39cd2807cbe02e48151220aa941726a038c21214a4"
+    },
+    "unitUserRankUnlockEvidence": {
+      "compressed_bytes": 1282,
+      "compression": "gzip",
+      "file": "unitUserRankUnlockEvidence.jgz",
+      "json_sha256": "d113edd7f6b0e8963821545303b11f4c9ba0a6459a7cd06b29ac3ad852395f2f",
+      "raw_bytes": 11829,
+      "sha256": "8b9eaff82f4faba53b9276ab4648404028d6f46d493098b198a4619ad2eeee22"
+    },
+    "visualAssets": {
       "compressed_bytes": 133318,
+      "compression": "gzip",
+      "file": "visualAssets.jgz",
+      "json_sha256": "9fc4559297fc3fbe9bf0f3e2eda8011b560c18fe5f1cf77b170d65019ef68315",
       "raw_bytes": 745071,
-      "sha256": "6499b00ecfd6c602fb29e76a293f0ac6c8c61ac8915c8311261babf885287111",
-      "json_sha256": "9fc4559297fc3fbe9bf0f3e2eda8011b560c18fe5f1cf77b170d65019ef68315"
+      "sha256": "6499b00ecfd6c602fb29e76a293f0ac6c8c61ac8915c8311261babf885287111"
     },
     "visualCoverage": {
       "compressed_bytes": 499,
@@ -130,455 +538,47 @@
       "raw_bytes": 874,
       "sha256": "5956fab2bd0a62d247f263b49bfb4ba62b0972a21637c7ce5ba256efaa051032"
     },
-    "stageVisualAssets": {
-      "file": "stageVisualAssets.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 28635,
-      "raw_bytes": 2362933,
-      "sha256": "d8e4f8c9189a136f13d1a9a8c65b9c3e214e90bd0616042404f5a9aa63bad019",
-      "json_sha256": "e5fcbae840bded4eb375d0757382fb6271db6d9e4ac92d56b7c384349f276111"
-    },
-    "stageVisualIndex": {
-      "file": "stageVisualIndex.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 351576,
-      "raw_bytes": 4598725,
-      "sha256": "f51bea560f4d9eb0de1c95e05e013705511185feb52fe2774c3d1d4d59c15e88",
-      "json_sha256": "e4f8d515873bc24f19c28a52aed2a91fce09b4657b0e8413a98e14fae4c5c72f"
-    },
-    "stageBackgroundEffects": {
-      "compressed_bytes": 12686,
-      "raw_bytes": 224909,
-      "sha256": "dc5544f0a30ed35187c6d0e2f8e05037308f8f0cd9609a331b3544cb8f6165a0",
-      "json_sha256": "cad65d2b48a18f0d54fe2a6c1da943be71939e9021c807e679babd6c88eaee64",
-      "compression": "gzip",
-      "file": "stageBackgroundEffects.jgz"
-    },
-    "enemyBaseRegistry": {
-      "compressed_bytes": 10929,
-      "raw_bytes": 75313,
-      "sha256": "048912e39804c0e4f4720704197dfe52ab31368c1f96b0ce509baf96c059d784",
-      "json_sha256": "215e388a25dbbc3aa59378680090e5078b3c5b29cb7e5c8c4ace049ee87f24f7",
-      "compression": "gzip",
-      "file": "enemyBaseRegistry.jgz"
-    },
-    "stageAssetAcquisition": {
-      "compressed_bytes": 54206,
-      "raw_bytes": 398863,
-      "sha256": "8498352bf654fc53fd0e26a4c1f9055e15c995eee2c109bcad4541f1831cbeef",
-      "json_sha256": "d73d79f656b0e04eb9cf82b91563d52b2287719a35e93aa6de3dac464ff95fd3",
-      "compression": "gzip",
-      "file": "stageAssetAcquisition.jgz"
-    },
-    "mainStoryEnemyBaseLayout": {
-      "compressed_bytes": 3717,
-      "raw_bytes": 28540,
-      "sha256": "34400dbf38f3029d722de6ade953728dd114db6bc105776904bb95d0275cb827",
-      "json_sha256": "ae1d14ab873c37b002dcdcef2a84463b9849c1eb1bfb4aa52976226786d3aee9",
-      "compression": "gzip",
-      "file": "mainStoryEnemyBaseLayout.jgz"
-    },
-    "backgroundPublicCandidates": {
-      "compressed_bytes": 2539,
-      "raw_bytes": 50162,
-      "sha256": "a879437a801b62dd69eeaa077ff46ca6e1eb2bfb026ea10b9e013c8371a002cf",
-      "json_sha256": "09211ec4541048ef625dbbba6e4a9f17439c920f1640327447bc92079982927e",
-      "compression": "gzip",
-      "file": "backgroundPublicCandidates.jgz"
-    },
-    "backgroundProvenance": {
-      "compressed_bytes": 3923,
-      "raw_bytes": 118741,
-      "sha256": "b90d08cd8c1f42ba8fff52f7232067e1763dfd024c06526695b115e4647bd02b",
-      "json_sha256": "f07a996fd3742189824c704ceb03ba127b114b5dfdd9c5439d8587521974c4bb",
-      "compression": "gzip",
-      "file": "backgroundProvenance.jgz"
-    },
-    "enemyBaseProvenance": {
-      "compressed_bytes": 18065,
-      "raw_bytes": 165132,
-      "sha256": "d13a59238626e35e3fb42fda7abf8cd7a7b123e300ede7523f169965b46c6b63",
-      "json_sha256": "f25995c843ec36d97cfff3dcdc6e99ee3e5bfe98bfc08125b065349d2ff191b4",
-      "compression": "gzip",
-      "file": "enemyBaseProvenance.jgz"
-    },
-    "bckrRawSourceAudit": {
-      "compressed_bytes": 3510,
-      "raw_bytes": 47856,
-      "sha256": "32a54a4a8b6fc39b710f430fc3317fad43e2320e6a81eecb798d0db4c95d462a",
-      "json_sha256": "6b46689ecc6dff52301a265bd6cde3bdb08fa85db52194a2b7c739773d0577a2",
-      "compression": "gzip",
-      "file": "bckrRawSourceAudit.jgz"
-    },
-    "stageBinaryAcquisitionPlan": {
-      "compressed_bytes": 4067,
-      "raw_bytes": 31147,
-      "sha256": "d17b264465359b35235396248012e0358b4e67a0a9a32a686a4ca9ccffd9c59c",
-      "json_sha256": "caa741c5ca56fe69418de0ce34bfbb7c102ac613f4bf3b6705f2c138dc6996b5",
-      "compression": "gzip",
-      "file": "stageBinaryAcquisitionPlan.jgz"
-    },
-    "installPackAcquisitionIdentity": {
-      "compressed_bytes": 1310,
-      "compression": "gzip",
-      "file": "installPackAcquisitionIdentity.jgz",
-      "json_sha256": "c625842ddaf8faad6d2bd6bfaae06d0d51d232cf3d7640f5b314cede6be106c4",
-      "raw_bytes": 3646,
-      "sha256": "fb43561d3e7b055e3ce7c08fe4f19bb6bb7ce7ce84de31bc360da1883d23e606"
-    },
-    "serverAssetResolutionPlan": {
-      "compressed_bytes": 2231,
-      "compression": "gzip",
-      "file": "serverAssetResolutionPlan.jgz",
-      "json_sha256": "bfbc43898de919cd0f7b56d9b8052c43d525c936a43bed7744556b2b5ac6c843",
-      "raw_bytes": 5639,
-      "sha256": "0f0583f957683488f7d1929e85ae6f3187ca74268d9eb8c7b0a6d0e0bcc6c6d2"
-    },
-    "enemyBaseRowIndexEvidence": {
-      "compressed_bytes": 1529,
-      "raw_bytes": 5624,
-      "sha256": "51fa58711c27157049a61676b12f5c98359c85984f1df7588b37ce06076c7784",
-      "json_sha256": "40cddee8934d39e73a0ca98ec91dd453c9ef5b7d55b1738b8745c2975e691bcc",
-      "compression": "gzip",
-      "file": "enemyBaseRowIndexEvidence.jgz"
-    },
-    "installPackLocalVisualEvidence": {
-      "compressed_bytes": 4098,
-      "compression": "gzip",
-      "file": "installPackLocalVisualEvidence.jgz",
-      "json_sha256": "ee4b3bbe3ad503aec39a35f512d3c5d00124a081aea0b882a5f6df3bf5fb158e",
-      "raw_bytes": 18817,
-      "sha256": "45d086c3ada53b4442845317e1f633d93c11d3fdb7b1579e06ecc09e67066973"
-    },
-    "enemyCastleFilenameEvidence": {
-      "compressed_bytes": 1179,
-      "compression": "gzip",
-      "file": "enemyCastleFilenameEvidence.jgz",
-      "json_sha256": "52511cf0e1171a2dc6fcbf8a160bc835c5bb44881a64301726751b03183f02ff",
-      "raw_bytes": 9120,
-      "sha256": "6fc1edff6c81bd580743f9ebf03fa860d287e697301189604c20f6a7485a5590"
-    },
-    "backgroundEffectInstallPackEvidence": {
-      "compressed_bytes": 648,
-      "compression": "gzip",
-      "file": "backgroundEffectInstallPackEvidence.jgz",
-      "json_sha256": "abac3d52fa73c5bddeaecacb51dc14ff87ea16980620e7ad5e7ef1a9464493a7",
-      "raw_bytes": 1799,
-      "sha256": "6559cd49401f9349c2ce075f33218824ece508cf2c1c560ae19c62a9c17168cd"
-    },
-    "specialItemVisualEvidence": {
-      "compressed_bytes": 1407,
-      "compression": "gzip",
-      "file": "specialItemVisualEvidence.jgz",
-      "json_sha256": "ef079cb8e63748d383d16d6b2bf51ed0558b1094e589448c45471136bd228096",
-      "raw_bytes": 5450,
-      "sha256": "de29b2ddac82cfb7d4f0285bd3473c1f7687b5391480726a7ca2beca3478bd16"
-    },
-    "enemyBaseDirectMappingEvidence": {
-      "compressed_bytes": 872,
-      "raw_bytes": 1702,
-      "sha256": "b68a692c1f0e868090ca0d6473b00552fb317f41eeef8ebeb0eacd9f4109aee1",
-      "json_sha256": "75dd2c2e290e46b862fd61482d5b0be615f7a0a148f574c2f6d8d9804379d03c",
-      "compression": "gzip",
-      "file": "enemyBaseDirectMappingEvidence.jgz"
-    },
-    "serverArchiveFilenameEvidence": {
-      "compressed_bytes": 1443,
-      "raw_bytes": 7836,
-      "sha256": "9204d4e557106fa6e175b14dfae4f3237aabcc80fe482ebacf0085a049577215",
-      "json_sha256": "bbb9d5c5b40f90e3783ae2c09405b8c80bb4c83d09514ba07d216190cbc99d72",
-      "compression": "gzip",
-      "file": "serverArchiveFilenameEvidence.jgz"
-    },
-    "specialItemAliasEvidence": {
-      "file": "specialItemAliasEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 1362,
-      "raw_bytes": 2839,
-      "sha256": "1239f314f2c05ee4167540d114422e43aeccaac520ca28d4e98ba369104257c8",
-      "json_sha256": "35d150a047e420762a3c94a1b1c3861f184c943b94f935cf679c29a65a0542b4"
-    },
-    "backgroundFilenameResolutionEvidence": {
-      "file": "backgroundFilenameResolutionEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 1751,
-      "raw_bytes": 6638,
-      "sha256": "f03afbe15559497142b6dd093006280966af2588d726582a45e4cfb24eef0163",
-      "json_sha256": "160ef6cb28dc0b9977d656068a24dbac91fac0492e5e2a0ca699e4fc9550aec1"
-    },
     "xpItemAliasEvidence": {
-      "file": "xpItemAliasEvidence.jgz",
-      "compression": "gzip",
       "compressed_bytes": 1416,
+      "compression": "gzip",
+      "file": "xpItemAliasEvidence.jgz",
+      "json_sha256": "8df424003ba32aae0304f84d88974315346e464bcec9b9c323416a8da515b231",
       "raw_bytes": 4194,
-      "sha256": "8d2be93bd2bb6cfed9cfcb525aa7e9145a8ae630b4fae4d4d410046b33a67072",
-      "json_sha256": "8df424003ba32aae0304f84d88974315346e464bcec9b9c323416a8da515b231"
-    },
-    "backgroundImageIdReuseEvidence": {
-      "file": "backgroundImageIdReuseEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 1274,
-      "raw_bytes": 3467,
-      "sha256": "522aa6127a9ee3a17a96422176732294feda2996eb4132a8c91fb83b650d2241",
-      "json_sha256": "3a6c872350a4fa53b93b220c112e5f51abd14b2cbb9558ed0e70d6cb159985af"
-    },
-    "stageRewardEvidence": {
-      "file": "stageRewardEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 1422,
-      "raw_bytes": 3016,
-      "sha256": "337d8709623b249b84e08e25f3b83fb3c32b326f08393234d223384a5353af1e",
-      "json_sha256": "e44ddd9a48fa22d3416b16cb63b9c5223c71d4bbda4c2518816c2d89f2257cb7"
-    },
-    "stageBattleRuleEvidence": {
-      "file": "stageBattleRuleEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 1981,
-      "raw_bytes": 18087,
-      "sha256": "eb186e95de193d42cb1fe8f1d05bbec2010ab93d582272e187f8e115ea6e28e0",
-      "json_sha256": "88df09e46937d22c7bc9a1c0586c4f57220ab779c2d4a4368bd5acf421ee8b81"
-    },
-    "stageSpawnTimingEvidence": {
-      "file": "stageSpawnTimingEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 2136,
-      "raw_bytes": 8390,
-      "sha256": "4164d9c0fa9a4cb6fd068242163ab5b0b859a57010f12679effb0062fd5a0e27",
-      "json_sha256": "06d48987aa46ba95627e045896ad73752a407b43d59fe693eb2206836d0f6bff"
-    },
-    "unitEvolutionEvidence": {
-      "file": "unitEvolutionEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 872,
-      "raw_bytes": 1510,
-      "sha256": "7ee07028c78a0ccd8d792eed2a4399cdb5e2f487ec4af851ea1394b631e2a80a",
-      "json_sha256": "1b633d0ec63ebc2d7be1213175402d1c4ac8f9fb2bfde34af9d1568ee3f55abb"
-    },
-    "unitTalentEvidence": {
-      "file": "unitTalentEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 14086,
-      "raw_bytes": 358842,
-      "sha256": "0378f68233cb2f2f0d9dbd39cd2807cbe02e48151220aa941726a038c21214a4",
-      "json_sha256": "023f2d098f5ccc2c6e7976df7ee4ce2befbe4895ef6521d315368897ba46685e"
-    },
-    "unitStageAcquisitionEvidence": {
-      "file": "unitStageAcquisitionEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 14480,
-      "raw_bytes": 118258,
-      "sha256": "fda51135ec60753120790d5ff53b85a76dbcf4d004a4467d49577076f0525b7e",
-      "json_sha256": "bd830e89206c78a0a942426b453e07a65121429d43579514d29c651ff20ff97b"
-    },
-    "nyancomboEvidence": {
-      "file": "nyancomboEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 10657,
-      "raw_bytes": 99130,
-      "sha256": "9d72169086d73dadf4f26c74f5074899b531c202ee18ad6c683e9a5519530423",
-      "json_sha256": "53a4f02378c9f077393126888f707ad9961839b0160932db72dcff1478dfa0a9"
-    },
-    "talentOrbSlotEvidence": {
-      "file": "talentOrbSlotEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 1246,
-      "raw_bytes": 11351,
-      "sha256": "057645197a38a39ec8fb842e3cca2adb9af37934749dc7ba24bf61f4b67d3969",
-      "json_sha256": "2117c30d77845cd5502497c54044257eedc109b6575f68d9aba5deb08ad38f48"
-    },
-    "unitRarityEvidence": {
-      "file": "unitRarityEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 563,
-      "raw_bytes": 1052,
-      "sha256": "229f0f555e798e5af66268199390b68e31fa9504074ae1d6d1b40327f1f1cd4d",
-      "json_sha256": "78dc5ad79969fd1d9c93440d11b759b9c50cb84aeb1b1d97291cda5470d94659"
-    },
-    "rankRewards": {
-      "file": "rankRewards.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 5098,
-      "raw_bytes": 102489,
-      "sha256": "dfbbe507f5ab2a28bac37ec6655f21074bf1bd5da9a434c36e36acff14d23f89",
-      "json_sha256": "e82d2d5ad79544f26894ec76ae70882607b9e986448bd3e76a6b1d9067b3ac2e"
-    },
-    "unitOfficialDescriptionEvidence": {
-      "file": "unitOfficialDescriptionEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 163764,
-      "raw_bytes": 798481,
-      "sha256": "f69c11c9464091d40511ade45484c2df6df6c5e9de9d64b70e59c24f02faf67a",
-      "json_sha256": "44a04f8eee39473ad179580dfee8fca30b58b5d8e6820f93330863ccf783159f"
-    },
-    "unitProgressionEvidence": {
-      "file": "unitProgressionEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 43223,
-      "raw_bytes": 309782,
-      "sha256": "3d136e6e815a5c496066028c8e75681ce0ac0ca3cc840476a3542ef3cba82ddd",
-      "json_sha256": "7aa0d9405ff3472ffcb4c9904a7cf8102f1761e6aa38909d74ac73f69e80c026"
-    },
-    "unitUserRankUnlockEvidence": {
-      "file": "unitUserRankUnlockEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 1282,
-      "raw_bytes": 11829,
-      "sha256": "8b9eaff82f4faba53b9276ab4648404028d6f46d493098b198a4619ad2eeee22",
-      "json_sha256": "d113edd7f6b0e8963821545303b11f4c9ba0a6459a7cd06b29ac3ad852395f2f"
-    },
-    "enemyCombatDetailEvidence": {
-      "file": "enemyCombatDetailEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 535,
-      "raw_bytes": 1273,
-      "sha256": "da9a560fd710821fc7c7da74ccdf84cc1fef7ea387d9a23fc2de9e6bf7aeb83b",
-      "json_sha256": "73361468304992d6ffbd659c8e58b239806902b3343545919d3e4520270a80c4"
-    },
-    "unitAttackDetailEvidence": {
-      "file": "unitAttackDetailEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 843,
-      "raw_bytes": 3730,
-      "sha256": "053c27ae52c1ec0398d18c6ab2951cecc327e0ed617077c46c1ce5d45b5c6afa",
-      "json_sha256": "c38f5c75df2ee7d632449dd81752b56debcd5b8f060c7cad2e77f2c7c771d3ca"
-    },
-    "stageNavigationEvidence": {
-      "file": "stageNavigationEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 178844,
-      "raw_bytes": 2566642,
-      "sha256": "8148c9954c29176a6015b9b07f4256e0187255c3864cfbb06e654720b6370018",
-      "json_sha256": "fa1974ea60942c48f3234b098ffa21399b3dc56da5152a4de3d8270523cbf880"
-    },
-    "stageStarMultiplierEvidence": {
-      "file": "stageStarMultiplierEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 5408,
-      "raw_bytes": 28239,
-      "sha256": "ba9ba1e6380367627fe9350adc8cde50c135299c4657f742e069af8a910a372b",
-      "json_sha256": "0fd90eb0c3335e3af7d96eb4e82f9db7994af5816373969b2296aca79b7fd07d"
-    },
-    "storyDeploymentRestrictionEvidence": {
-      "file": "storyDeploymentRestrictionEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 3336,
-      "raw_bytes": 85070,
-      "sha256": "ffb1335f5c84d2d818709303bddb183038fbe9fcc25efd896b336364a6a8fc81",
-      "json_sha256": "d34a2d5093ba98362fa1343086d63aaa4a3f916e22ff80cc803bc3059b9ee943"
-    },
-    "unitAcquisitionGuideEvidence": {
-      "file": "unitAcquisitionGuideEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 20964,
-      "raw_bytes": 247288,
-      "sha256": "0ff3600ec6774d12e4ca786a8ea74a8ecd661e2365f9b165248a16626b134944",
-      "json_sha256": "27598fa3fc46221fe6709261662021300680e91ad1e5035ffe2708916b111585"
-    },
-    "enemyAbilitySemanticEvidence": {
-      "file": "enemyAbilitySemanticEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 10934,
-      "raw_bytes": 271589,
-      "sha256": "4bfb35264505dfdacad19e2ca3ba0e513386ac2bbb6481ae6fa949194883c819",
-      "json_sha256": "2bcfd10fec4950b1b4bfee0a373bafc20e487dd4ff032e409acadc722ed1ca65"
-    },
-    "stageThreatDetailEvidence": {
-      "file": "stageThreatDetailEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 268068,
-      "raw_bytes": 9424055,
-      "sha256": "ee4aab66e457d5339d52520dd5554ddd3a9795fa9a1eefb39cc0d4ebf3e5e31e",
-      "json_sha256": "dcd49d1eab855ae2473847fd600d6ca26e56efd6dee7e565174214812b67f971"
-    },
-    "materialAcquisitionEvidence": {
-      "file": "materialAcquisitionEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 16737,
-      "raw_bytes": 403259,
-      "sha256": "131505c3fddf5242506b9a1a370ead41822a9b1abdf1de6776fad78806c80abc",
-      "json_sha256": "f2b75531b4dcbf45a8e6858253b6b049e6a196993dead02847b8e7e7f796745f"
-    },
-    "unitExchangeEvidence": {
-      "file": "unitExchangeEvidence.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 4461,
-      "raw_bytes": 78984,
-      "sha256": "db24d325d973b59b3f1d61a0a8374dbf1aa2be5e1d4e102e0aff0b9dfe0800fe",
-      "json_sha256": "c951cb514c0ad156e502a99b81e09a75352f3611447de6247ef20589d79c4aa7"
-    },
-    "catDetailImages": {
-      "file": "catDetailImages.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 2486,
-      "raw_bytes": 36590,
-      "sha256": "af98303d315c0f6732697770f0ca1e0e71dcb3c9e1c7cdbdabd17a9510e4ab85",
-      "json_sha256": "339c8c952a594bd7ca141a485a2aae5a6b264911ef3e02d306522ae55c0c1316"
-    },
-    "nintendoScope": {
-      "file": "nintendoScope.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 2881,
-      "raw_bytes": 12239,
-      "sha256": "995b6c6e82e34af70279c26bb4a6b5dff515815c26a6197dfa14f81fc3934969",
-      "json_sha256": "44d82d3be3ae0be16e73fc5d6c1b0cf061da1ea212f832d15c3151ff6cb0ff57"
-    },
-    "nintendoHierarchy": {
-      "file": "nintendoHierarchy.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 36264,
-      "raw_bytes": 481783,
-      "sha256": "120f21bee53694abba79e35642479b76f60be6015c2d7ed775a793ddcfbb2fde",
-      "json_sha256": "fb4580ca6ffd810a1a0f8de547216e42c925e213e131b32bf3864fe9d0f9fb6b"
-    },
-    "nintendoSpecial": {
-      "file": "nintendoSpecial.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 3257,
-      "raw_bytes": 20392,
-      "sha256": "a026096dd5e32285b4de230d4eb981b2a11c10a16a6a22175eab509f47f60ea3",
-      "json_sha256": "7e54fc0332f655e02a314b10d644f6fa213d68b7c1151504c030e414bd30c62d"
-    },
-    "nintendoStageGuide": {
-      "file": "nintendoStageGuide.jgz",
-      "compression": "gzip",
-      "compressed_bytes": 11624,
-      "raw_bytes": 182050,
-      "sha256": "1dad69178c18c963f5407fa4f7c470ce41a923c78ba896d5b05ab46582bd61b2",
-      "json_sha256": "ddfb975ca0480c7e7c36abbb2310ca172a2109afa37a90179e8916fda3afde43"
+      "sha256": "8d2be93bd2bb6cfed9cfcb525aa7e9145a8ae630b4fae4d4d410046b33a67072"
     }
   },
+  "release": {
+    "note": "스테이지 출현 적은 직접 enemy ID로 원본 이미지를 연결하고, Nintendo 권장 캐릭터도 원본 이미지 카드로 표시. 확인되지 않은 Nintendo 값은 비워 둠.",
+    "version": "V121"
+  },
+  "schema": "sw_battlecats_runtime_manifest_v084",
   "totals": {
-    "manifest_keys": 68,
     "local_runtime_files": 1,
+    "manifest_keys": 68,
     "stage_star_multiplier_details": 666,
     "story_deployment_restriction_details": 240,
-    "unit_acquisition_guide_units": 740,
     "unit_acquisition_guide_form_entries": 1882,
+    "unit_acquisition_guide_units": 740,
     "v087_enemy_ability_detail_enemies": 364,
-    "v087_stage_attribute_detail_stages": 4951,
     "v087_stage_ability_detail_stages": 3848,
+    "v087_stage_attribute_detail_stages": 4951,
+    "v088_cat_forms_with_material_acquisition": 300,
+    "v088_cat_material_stage_links": 3514,
     "v088_material_count": 29,
     "v088_material_reward_rows": 812,
     "v088_material_reward_stages": 363,
-    "v088_cat_forms_with_material_acquisition": 300,
-    "v088_cat_material_stage_links": 3514,
-    "v089_unitbuy_rows": 873,
-    "v089_visible_units_with_exchange": 767,
-    "v089_visible_forms_with_exchange": 1952,
     "v089_basic_forms_np_adjustment_note": 30,
-    "v090_stage_enemy_base_id_bindings": 4957,
+    "v089_unitbuy_rows": 873,
+    "v089_visible_forms_with_exchange": 1952,
+    "v089_visible_units_with_exchange": 767,
     "v090_enemy_base_image_bindings": 15,
     "v090_enemy_base_pending_bindings": 4942,
+    "v090_stage_enemy_base_id_bindings": 4957,
     "v091_enemy_detail_upscale_removed": 585,
     "v091_search_platform_single_row_restored": 1,
-    "v095_verified_active_named_combos": 255,
+    "v095_old_special_combo_placeholder_rows_removed": 162,
     "v095_old_special_combo_rows_replaced": 386,
-    "v095_old_special_combo_placeholder_rows_removed": 162
+    "v095_verified_active_named_combos": 255
   },
-  "release": {
-    "version": "V120",
-    "note": "모바일·Nintendo 스테이지 출현 적에 기존 원본 적 이미지를 연결. 전투 데이터는 변경하지 않음."
-  },
-  "base_runtime": "runtime-v106",
-  "base_version": "V118"
+  "version": "V121"
 }
