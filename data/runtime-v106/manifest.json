@@ -211,12 +211,12 @@
       "sha256": "a026096dd5e32285b4de230d4eb981b2a11c10a16a6a22175eab509f47f60ea3"
     },
     "nintendoStageGuide": {
-      "compressed_bytes": 22303,
+      "compressed_bytes": 24219,
       "compression": "gzip",
       "file": "nintendoStageGuide.jgz",
-      "json_sha256": "dcc468d5d3501fed325177adc86df4258713a4cc87a0754ea888f2370dd1fdb7",
-      "raw_bytes": 391655,
-      "sha256": "d995a409267729dc22d92fb490da76fa2ed6766c7a7b9229ba691f20fcc22ac3"
+      "json_sha256": "f890ffdc3792b45bac9a795a5cbfcef98b33748a91f6a48851f801de392c21ae",
+      "raw_bytes": 439803,
+      "sha256": "4fce7fb41628819cc433646efa698a5b537331218e194f6205662f360715d444"
     },
     "nyancomboEvidence": {
       "compressed_bytes": 10657,
@@ -548,8 +548,8 @@
     }
   },
   "release": {
-    "version": "V130",
-    "note": "캐릭터/적/모바일 스테이지 상세 회귀 복구. Nintendo 미래편 48개에 검증된 보물 그룹·위험 요소·스테이지 이동·추천 편성을 연결하고, 진행 기준 추천은 2진 이하·실제 해금 EX/뽑기 시리즈를 반영하며 울트라 슈퍼 레어는 인도 이후 상성 점수가 있을 때만 최대 1칸 허용."
+    "version": "V131",
+    "note": "Nintendo 미래편·레전드 스테이지의 권장 캐릭터 중복 표시를 제거하고 추천 편성 중심으로 통일. 레전드 112개 중 Switch 전용 공략에서 주요 적·보스가 확인된 97개 스테이지에 검증 위협 기반 추천 편성을 연결하고, 에리어 16개 첫 클리어 보상을 정리. 모바일판 적 구성은 대체 사용하지 않음."
   },
   "schema": "sw_battlecats_runtime_manifest_v084",
   "totals": {
@@ -580,5 +580,5 @@
     "v095_old_special_combo_rows_replaced": 386,
     "v095_verified_active_named_combos": 255
   },
-  "version": "V130"
+  "version": "V131"
 }
