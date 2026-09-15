@@ -1,0 +1,69 @@
+{
+  "version": "V134",
+  "base": "V133 DELTA applied to V132 FULL",
+  "date": "2026-09-15",
+  "changed_runtime_or_web_files": 6,
+  "documentation_files": 1,
+  "files": [
+    {
+      "path": "README_V134_DELTA.md",
+      "bytes": 3604,
+      "sha256": "a01ff8065a51e38d2efa337d74caa6350ab8f781d4bbbc07a75f53dff95822a3"
+    },
+    {
+      "path": "data/runtime-v106/manifest.json",
+      "bytes": 25037,
+      "sha256": "a06c295b035e36dc505cb146477fa3631a45272cd790319e02b1a62e5738f7d1"
+    },
+    {
+      "path": "data/runtime-v106/nintendoScope.jgz",
+      "bytes": 4020,
+      "sha256": "b26c56b38bbf8dc5d258aca13e0df5836fd888e6436260978d35dfe41bc654be"
+    },
+    {
+      "path": "data/runtime-v106/nintendoStageGuide.jgz",
+      "bytes": 30756,
+      "sha256": "341cec69233dcfa48702475f00defcd2d891065b6ed92814eae1bdf4b5ee595c"
+    },
+    {
+      "path": "data/runtime-v106/platforms.jgz",
+      "bytes": 716,
+      "sha256": "6fe1ebbe036c952c41213e6be6b07601238a3793d9e16e466cf488633a96de13"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1964,
+      "sha256": "f74868957be6a73996cd1fca9dfd59647dfdbb454f25f25f2d3cb32372fdfa0a"
+    },
+    {
+      "path": "web/js/encyclopedia-v134.js",
+      "bytes": 71290,
+      "sha256": "1ca603a4b674e53ddb2ee5925d9a0dd988226f3a9939628f9da889c5b0d05a71"
+    }
+  ],
+  "verification": {
+    "js_syntax": "PASS",
+    "nintendo_scope_cats": 405,
+    "nintendo_scope_enemies": 115,
+    "nintendo_stage_guide_entries": 315,
+    "world_full": "48/48",
+    "future_full": "48/48",
+    "cotc_full": "43/48",
+    "cotc_partial": "5/48",
+    "legend_full": "24/112",
+    "legend_partial": "73/112",
+    "legend_unverified": "15/112",
+    "special_full": "24/59",
+    "special_partial": "25/59",
+    "special_unverified": "10/59",
+    "special_spawn_summary_stages": 24,
+    "guide_ref_scope_errors": 0,
+    "guide_enemy_type_count_errors": 0,
+    "mobile_cats_changed": false,
+    "mobile_stages_changed": false,
+    "mobile_hierarchy_changed": false,
+    "open_entry_route_preserved": true,
+    "local_http_smoke": "PASS",
+    "actual_deployed_device_test": "NOT_RUN"
+  }
+}
